@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Levels/Special/Level_Resource.gd" type="Script" id=1]
+[ext_resource path="res://Levels/Bonus1.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+thumbnail = ExtResource( 2 )
+level = "res://Levels/Bonus1.tscn"
+name = "Special World"
+description = "Nice place."
+civ_dialogue = [ "Hello", "Have a good day." ]

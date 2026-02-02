@@ -1,0 +1,102 @@
+GDRE Tools v2.4.0
+Windows 10.0.26200, AMD Radeon RX 9070 XT, vulkan
+WARNING: Could not find embedded pck in EXE, found pck file, loading from: C:/Program Files (x86)/Steam/steamapps/common/Cruelty Squad/crueltysquad.pck
+   at: GDRESettings::sort_and_validate_pck_files (modules\gdsdecomp\utility\gdre_settings.cpp:594)
+Opening file: C:/Program Files (x86)/Steam/steamapps/common/Cruelty Squad/crueltysquad.pck
+Multiple passing candidates for bytecode version 13:
+3.5.0-stable (a7aad78), 3.2.0-stable (5565f55)
+Choosing only one that matches engine version: 3.5.0-stable (a7aad78).
+Loaded 1290 imported files
+Detected Engine Version: 3.5.2
+Detected Bytecode Revision: 3.5.0-stable (a7aad78)
+Verified 3238 files, no errors detected!
+Extracted 3238 files, no errors detected!
+Recreating plugin configs...
+WARNING: Mesh uses old surface format, which is deprecated (and loads slower). Consider re-importing or re-saving the scene. Path: "res://.import/pizza.obj-e13d6e4fdf5e4a244b07e6118cc1c691.mesh"
+   at: FakeMesh::_set (modules\gdsdecomp\compat\fake_mesh.cpp:457)
+Found matching plugin in cache: godotsteam, version: v3.6.3-gdn, download url: https://codeberg.org/godotsteam/godotsteam/releases/download/v3.6.3-gdn/godotsteam-gdnative-plugin.zip
+
+Exporting scenes...
+*** Exporting 129 scenes took 1.93s
+
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     205
+Failed scripts:                         0
+Imported resources for export session:  1290
+Successfully converted:                 1253
+Lossy:                                  418
+Rewrote metadata:                       80
+Non-importable conversions:             0
+Not converted:                          37
+Failed conversions:                     0
+-------------
+
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.import/Bonus1.map-b0e4d736855b0ce4d68aa7e0d0d906a8.tres ( importer: qodot.map, type: Resource, format: map) to Bonus1.map
+res://.import/Bonus2.map-a1e8f45c6ff53d6141ca12c1e27c8367.tres ( importer: qodot.map, type: Resource, format: map) to Bonus2.map
+res://.import/Bonus3-crash-1.map-875e2e6dba63016ee379d1334fbe6fb3.tres ( importer: qodot.map, type: Resource, format: map) to Bonus3-crash-1.map
+res://.import/Bonus3-crash.map-d4f6683187b35ad61c6d1ac8f24eebb5.tres ( importer: qodot.map, type: Resource, format: map) to Bonus3-crash.map
+res://.import/Bonus3.map-cc9968096e56e41a351afcd41c8e4532.tres ( importer: qodot.map, type: Resource, format: map) to Bonus3.map
+res://.import/Bonus3test.map-421d6c3c74cf6158b59362eee1094803.tres ( importer: qodot.map, type: Resource, format: map) to Bonus3test.map
+res://.import/Bonus4.map-744766335fd875d0ba304a57ca02eae2.tres ( importer: qodot.map, type: Resource, format: map) to Bonus4.map
+res://.import/Bonus5.map-562d5f178562bc7d770b01572d103d53.tres ( importer: qodot.map, type: Resource, format: map) to Bonus5.map
+res://.import/BonusEND-crash.map-d6ff0772e99c70f7f355c8ac71c0b53b.tres ( importer: qodot.map, type: Resource, format: map) to BonusEND-crash.map
+res://.import/BonusEND.map-5ee6b0f1814137f9c07124fdd1c81746.tres ( importer: qodot.map, type: Resource, format: map) to BonusEND.map
+res://.import/Level1-crash.map-97010073549595eac2d502398df88229.tres ( importer: qodot.map, type: Resource, format: map) to Level1-crash.map
+res://.import/Level1.map-c727771eb3109c862a17b3047e84bba1.tres ( importer: qodot.map, type: Resource, format: map) to Level1.map
+res://.import/Level10.map-c04471dc9fb9d7f30a4a8f23d65c12b6.tres ( importer: qodot.map, type: Resource, format: map) to Level10.map
+res://.import/Level11.map-3560696545669d04385c8940274c642f.tres ( importer: qodot.map, type: Resource, format: map) to Level11.map
+res://.import/Level12.map-d8f84cd4e4d2c8cd84ab76ac5cffd06d.tres ( importer: qodot.map, type: Resource, format: map) to Level12.map
+res://.import/Level2-crash.map-8810aa53a39581b12cf50bcad64ff999.tres ( importer: qodot.map, type: Resource, format: map) to Level2-crash.map
+res://.import/Level2.map-f50e5274daeb9803b38a398cd8937c0b.tres ( importer: qodot.map, type: Resource, format: map) to Level2.map
+res://.import/Level2backup.map-2d97bb9bc766c4a8ef2bc1737a443b7d.tres ( importer: qodot.map, type: Resource, format: map) to Level2backup.map
+res://.import/Level3-crash.map-f63ce2cb96bf61ff62bb0a15b10e6365.tres ( importer: qodot.map, type: Resource, format: map) to Level3-crash.map
+res://.import/Level3.map-6079ffa1a29e79e91b80dba6b49e582f.tres ( importer: qodot.map, type: Resource, format: map) to Level3.map
+res://.import/Level3backup.map-0c3e0e419db9ce799e02110b2d86bf86.tres ( importer: qodot.map, type: Resource, format: map) to Level3backup.map
+res://.import/Level4.map-7e0aab0c33361545043474f8798adb15.tres ( importer: qodot.map, type: Resource, format: map) to Level4.map
+res://.import/Level5.map-87ebf3590336c52c8b0c7a8ee53a4574.tres ( importer: qodot.map, type: Resource, format: map) to Level5.map
+res://.import/Level6.map-f3079b96114c50601e58d92e1e75f417.tres ( importer: qodot.map, type: Resource, format: map) to Level6.map
+res://.import/Level7-crash.map-6ef1541afbd7cd8517b7d6cac80b3c8a.tres ( importer: qodot.map, type: Resource, format: map) to Level7-crash.map
+res://.import/Level7.map-1f8b9bf4e4f42c2f661e95072e920c7e.tres ( importer: qodot.map, type: Resource, format: map) to Level7.map
+res://.import/Level8-crash.map-2ee30ec59bd90554a337b2459b6cc4b5.tres ( importer: qodot.map, type: Resource, format: map) to Level8-crash.map
+res://.import/Level8.map-0c0040bf72049cf66de350722ce39dd6.tres ( importer: qodot.map, type: Resource, format: map) to Level8.map
+res://.import/Level9.map-3911283cb0629d17e206875d52b846a4.tres ( importer: qodot.map, type: Resource, format: map) to Level9.map
+res://.import/Training_Facility.map-74282517d0bffc9c06950cbfd4c9f730.tres ( importer: qodot.map, type: Resource, format: map) to Training_Facility.map
+res://.import/cutscene_ending1.map-70e5ec5a6487792c3c8dd3ffa26d248c.tres ( importer: qodot.map, type: Resource, format: map) to cutscene_ending1.map
+res://.import/cutscene_ending3.map-a949686121d70281e494e3a897c7dc58.tres ( importer: qodot.map, type: Resource, format: map) to cutscene_ending3.map
+res://.import/cutscene_intro.map-3fed1f2c9b87deab4137ad7dff6719f3.tres ( importer: qodot.map, type: Resource, format: map) to cutscene_intro.map
+res://.import/test1.map-774436b5068a5dfaa546fae73e9a750a.tres ( importer: qodot.map, type: Resource, format: map) to test1.map
+res://.import/test2.map-1f4322fc4af599ac69aa63251a14532c.tres ( importer: qodot.map, type: Resource, format: map) to test2.map
+res://.import/MENUMAP.map-98d4a3e2f4364e63beb99b376692b2fa.tres ( importer: qodot.map, type: Resource, format: map) to MENUMAP.map
+res://.import/palette.lmp-607fece05ca2e6d7092d2b1487763816.tres ( importer: qodot.palette, type: Resource, format: lmp) to palette.lmp
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Unsupported Resources Detected:
+The following resource types were detected in the project that conversion is not implemented for yet.
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+ - Resource Type: Resource   Format: map      Importer: qodot.map (non-standard resource)
+ - Resource Type: Resource   Format: lmp      Importer: qodot.palette (non-standard resource)
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.2 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

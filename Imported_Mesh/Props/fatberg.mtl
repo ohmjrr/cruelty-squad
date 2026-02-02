@@ -1,0 +1,9 @@
+# Exported from Godot Engine
+
+newmtl fatberg1
+Kd 0.800000 0.629457 0.455439
+Ks 0.500000 0.500000 0.500000
+
+newmtl fatberg2
+Kd 0.245456 0.800000 0.034690
+Ks 0.500000 0.500000 0.500000
