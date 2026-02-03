@@ -1,7 +1,7 @@
 [gd_scene load_steps=63 format=2]
 
 [ext_resource path="res://Scripts/Cutscene.gd" type="Script" id=1]
-[ext_resource path="res://Fonts/MingLiU-ExtB-01.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Fonts/NotoSansThai-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Scripts/speech_label.gd" type="Script" id=3]
 [ext_resource path="res://addons/qodot/game-definitions/fgd/qodot_fgd.tres" type="Resource" id=4]
 [ext_resource path="res://Maps/textures/suburb/suburb_grass.png" type="Texture" id=5]
