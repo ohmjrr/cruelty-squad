@@ -131,7 +131,7 @@ margin_bottom = 213.0
 [node name="CheckBox" type="CheckBox" parent="Settings/GridContainer/PanelContainer5"]
 margin_right = 200.0
 margin_bottom = 26.0
-text = "Full Screen"
+text = "เต็มจอ"
 
 [node name="Resolution_List" type="ItemList" parent="Settings/GridContainer/PanelContainer5"]
 margin_top = 26.0
@@ -196,8 +196,8 @@ __meta__ = {
 margin_top = 84.0
 margin_right = 214.0
 margin_bottom = 139.0
-text = "Mouse
-Sensitivity"
+text = "ความไว
+เม้าส์"
 
 [node name="M_Sensitivity" type="HSlider" parent="Settings/GridContainer/PanelContainer/VBoxContainer"]
 margin_top = 139.0
@@ -213,14 +213,14 @@ __meta__ = {
 margin_top = 155.0
 margin_right = 214.0
 margin_bottom = 181.0
-text = "Invert Y Axis"
+text = "กลับแกน Y"
 
 [node name="Camera Sway" type="CheckBox" parent="Settings/GridContainer/PanelContainer/VBoxContainer"]
 margin_top = 181.0
 margin_right = 214.0
 margin_bottom = 207.0
 pressed = true
-text = "Camera Sway"
+text = "กล้องโยก"
 
 [node name="PanelContainer2" type="PanelContainer" parent="Settings/GridContainer"]
 margin_left = 420.0
@@ -262,7 +262,7 @@ size_flags_vertical = 3
 [node name="Label2" type="Label" parent="Settings/GridContainer/PanelContainer3/VBoxContainer2"]
 margin_right = 194.0
 margin_bottom = 26.0
-text = "Master Volume"
+text = "เสียงหลัก"
 
 [node name="Master_Volume" type="HSlider" parent="Settings/GridContainer/PanelContainer3/VBoxContainer2"]
 margin_top = 26.0
@@ -280,7 +280,7 @@ __meta__ = {
 margin_top = 133.0
 margin_right = 194.0
 margin_bottom = 159.0
-text = "Music Volume"
+text = "เสียงเพลง"
 
 [node name="Music_Volume" type="HSlider" parent="Settings/GridContainer/PanelContainer3/VBoxContainer2"]
 margin_top = 159.0
@@ -313,7 +313,7 @@ size_flags_vertical = 3
 [node name="Label2" type="Label" parent="Settings/GridContainer/PanelContainer4/VBoxContainer3"]
 margin_right = 214.0
 margin_bottom = 26.0
-text = "Blood Color"
+text = "สีเลือด"
 
 [node name="Blood_Color_Rect" type="ColorRect" parent="Settings/GridContainer/PanelContainer4/VBoxContainer3"]
 margin_top = 26.0
@@ -425,33 +425,33 @@ size_flags_vertical = 3
 [node name="SkipIntro" type="CheckBox" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_right = 344.0
 margin_bottom = 26.0
-text = "Skip Intro"
+text = "ข้ามอินโทร"
 
 [node name="Timer" type="CheckBox" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 26.0
 margin_right = 344.0
 margin_bottom = 52.0
-text = "Timer"
+text = "ตัวจับเวลา"
 
 [node name="Reflections" type="CheckBox" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 52.0
 margin_right = 344.0
 margin_bottom = 78.0
 pressed = true
-text = "Reflections"
+text = "การสะท้อน"
 
 [node name="Highperformance" type="CheckBox" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 78.0
 margin_right = 344.0
 margin_bottom = 104.0
 pressed = true
-text = "High Performance Mode"
+text = "โหมดประสิทธิภาพสูง"
 
 [node name="Civcount_Label" type="Label" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 104.0
 margin_right = 344.0
 margin_bottom = 130.0
-text = "Civilians"
+text = "พลเรือน"
 
 [node name="Civslider" type="HSlider" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 130.0
@@ -468,7 +468,7 @@ __meta__ = {
 margin_top = 146.0
 margin_right = 344.0
 margin_bottom = 172.0
-text = "Draw distance"
+text = "ระยะวาด"
 
 [node name="Drawslider" type="HSlider" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 172.0
@@ -494,25 +494,25 @@ color = Color( 1, 1, 1, 0 )
 margin_top = 188.0
 margin_right = 344.0
 margin_bottom = 214.0
-text = "Reset Level Progression"
+text = "รีเซ็ตความคืบหน้าด่าน"
 
 [node name="ClearSave" type="Button" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 214.0
 margin_right = 344.0
 margin_bottom = 240.0
-text = "Clear Save Data"
+text = "ล้างข้อมูลเซฟ"
 
 [node name="ResetTimer" type="Button" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 214.0
 margin_right = 344.0
 margin_bottom = 240.0
-text = "Reset Timer"
+text = "รีเซ็ตเวลา"
 
 [node name="PlayTime" type="Label" parent="Settings/GridContainer/PanelContainer6/VBoxContainer3"]
 margin_top = 240.0
 margin_right = 344.0
 margin_bottom = 266.0
-text = "Play Time:"
+text = "เวลาเล่น:"
 
 [node name="MyWork" type="TextureRect" parent="."]
 visible = false
@@ -772,14 +772,14 @@ margin_top = 93.0
 margin_right = 179.0
 margin_bottom = 119.0
 custom_colors/font_color = Color( 0.454902, 0.909804, 0, 1 )
-text = "Punishment"
+text = "การลงโทษ"
 
 [node name="Chaos_Mode" type="CheckBox" parent="Level_Info_Grid/Level_Info_Vbox/Time_Panel/VBoxContainer"]
 margin_top = 93.0
 margin_right = 179.0
 margin_bottom = 119.0
 custom_colors/font_color = Color( 0.454902, 0.909804, 0, 1 )
-text = "Chaos"
+text = "ความวุ่นวาย"
 
 [node name="Level_Image" type="TextureRect" parent="Level_Info_Grid/Level_Info_Vbox"]
 margin_left = 370.0
@@ -835,14 +835,14 @@ alignment = 1
 margin_top = 57.0
 margin_right = 361.0
 margin_bottom = 83.0
-text = "Enemies:"
+text = "ศัตรู:"
 align = 1
 
 [node name="Civilians_Label" type="Label" parent="Level_End_Grid/Performance_Hbox/Performance_Scroll/Performance_Vbox"]
 margin_top = 83.0
 margin_right = 361.0
 margin_bottom = 109.0
-text = "Civilians:"
+text = "พลเรือน:"
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -852,7 +852,7 @@ __meta__ = {
 margin_top = 109.0
 margin_right = 361.0
 margin_bottom = 135.0
-text = "Time:"
+text = "เวลา:"
 align = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -1133,7 +1133,7 @@ text = "102429"
 margin_right = 405.0
 margin_bottom = 76.0
 window_title = ""
-dialog_text = "Do you want to purchase X?"
+dialog_text = "แกอยากซื้อ X มั้ย?"
 
 [node name="Hover_Panel" type="PanelContainer" parent="."]
 visible = false
@@ -1197,7 +1197,7 @@ size_flags_vertical = 3
 margin_right = 40.0
 margin_bottom = 26.0
 custom_fonts/font = SubResource( 9 )
-text = "PRESS A KEY"
+text = "กดปุ่ม"
 
 [node name="Soul_Rended" type="TextureRect" parent="."]
 visible = false
@@ -1279,7 +1279,7 @@ menu = true
 margin_right = 302.0
 margin_bottom = 76.0
 window_title = ""
-dialog_text = "This will remove all of your progress. Are you Sure?"
+dialog_text = "มันจะลบความคืบหน้าทั้งหมด แกมั่นใจเหรอ?"
 
 [connection signal="toggled" from="Settings/GridContainer/PanelContainer5/CheckBox" to="." method="_on_Full_Screen_toggled"]
 [connection signal="item_activated" from="Settings/GridContainer/PanelContainer5/Resolution_List" to="." method="_on_Resolution_List_item_activated"]

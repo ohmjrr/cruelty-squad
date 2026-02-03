@@ -74,8 +74,8 @@ func _ready():
 	head_implant = empty_implant
 	
 	var new_implant = Implant.new()
-	new_implant.i_name = "Speed Enhancer Gland"
-	new_implant.explanation = "An artificial organ that emits synthetic hormones capable of boosting your neurocircuit activity and metabolism. Decreases your body's natural ability to recover from damage and shock."
+	new_implant.i_name = "ต่อมเพิ่มความเร็ว"
+	new_implant.explanation = "อวัยวะเทียมที่ปล่อยฮอร์โมนสังเคราะห์เพื่อกระตุ้นระบบประสาทและเมตาบอลิซึม ลดความสามารถในการฟื้นตัวจากความเสียหายและช็อก"
 	new_implant.armor = 1.1
 	new_implant.price = 1000
 	new_implant.speed_bonus = 1
@@ -85,8 +85,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Speed Enhancer Node Cluster"
-	new_implant.explanation = "Bypasses most of your body's endocrine system with an artificial one. Your movement speed is significantly improved at the expense of overall weakened health."
+	new_implant.i_name = "กลุ่มโหนดเพิ่มความเร็ว"
+	new_implant.explanation = "แทนที่ระบบต่อมไร้ท่อส่วนใหญ่ด้วยระบบเทียม ความเร็วเพิ่มขึ้นอย่างมากแลกกับสุขภาพที่อ่อนแอลง"
 	new_implant.armor = 1.5
 	new_implant.price = 3000
 	new_implant.speed_bonus = 2
@@ -96,8 +96,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Speed Enhancer Total Organ Package"
-	new_implant.explanation = "Bypasses the entirety of your speed-limited set of human organs with more fragile fully unlocked commercial product. Pros only."
+	new_implant.i_name = "แพ็คเกจอวัยวะเพิ่มความเร็วเต็มรูปแบบ"
+	new_implant.explanation = "แทนที่อวัยวะมนุษย์ที่จำกัดความเร็วทั้งหมดด้วยผลิตภัณฑ์เชิงพาณิชย์ที่ปลดล็อคแล้วแต่เปราะบางกว่า สำหรับมือโปรเท่านั้น"
 	new_implant.armor = 2.0
 	new_implant.price = 6000
 	new_implant.speed_bonus = 4
@@ -109,8 +109,8 @@ func _ready():
 
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level II Body Armor"
-	new_implant.explanation = "Inexpensive kevlar vest. Minimum recommended protection."
+	new_implant.i_name = "เกราะกาย CSIJ ระดับ II"
+	new_implant.explanation = "เสื้อกันกระสุนเคฟลาร์ราคาถูก การป้องกันขั้นต่ำที่แนะนำ"
 	new_implant.price = 1000
 	new_implant.armor = 0.9
 	new_implant.torso = true
@@ -119,8 +119,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level IIB Body Armor"
-	new_implant.explanation = "Improved light body armor utilizing advanced material technology."
+	new_implant.i_name = "เกราะกาย CSIJ ระดับ IIB"
+	new_implant.explanation = "เกราะเบาปรับปรุงใหม่ใช้เทคโนโลยีวัสดุขั้นสูง"
 	new_implant.price = 0
 	new_implant.armor = 0.85
 	new_implant.torso = true
@@ -130,8 +130,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level III Body Armor"
-	new_implant.explanation = "Kevlar with simple Ultra-high-molecular-weight polyethylene trauma plates."
+	new_implant.i_name = "เกราะกาย CSIJ ระดับ III"
+	new_implant.explanation = "เคฟลาร์พร้อมแผ่นกันกระแทก UHMWPE แบบธรรมดา"
 	new_implant.price = 3000
 	new_implant.armor = 0.8
 	new_implant.speed_bonus = - 1
@@ -141,8 +141,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level IV Body Armor"
-	new_implant.explanation = "Biobreeder spider silk fiber with thick and heavy graphene composite plates."
+	new_implant.i_name = "เกราะกาย CSIJ ระดับ IV"
+	new_implant.explanation = "เส้นใยแมงมุมชีวภาพพร้อมแผ่นกราฟีนหนาและหนัก"
 	new_implant.price = 5000
 	new_implant.armor = 0.5
 	new_implant.speed_bonus = - 3
@@ -153,8 +153,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level V Biosuit"
-	new_implant.explanation = "A suit of writhing flesh that wraps around you and seals you in. Extremely good protection with no immediately apparent downsides."
+	new_implant.i_name = "ชุดชีวภาพ CSIJ ระดับ V"
+	new_implant.explanation = "ชุดเนื้อดิ้นรนที่ห่อหุ้มตัวและปิดผนึกแก ป้องกันดีเยี่ยมโดยไม่มีข้อเสียที่เห็นชัด"
 	new_implant.price = 99999
 	new_implant.armor = 0.6
 	new_implant.terror = true
@@ -165,8 +165,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "CSIJ Level VI Golem Exosystem"
-	new_implant.explanation = "A terrifying exoskeleton built out of unknown metamaterials, originally used by guards in nuclear power plants."
+	new_implant.i_name = "ระบบโกเลม CSIJ ระดับ VI"
+	new_implant.explanation = "โครงกระดูกภายนอกน่าสะพรึงกลัวทำจากเมตาวัสดุไม่ทราบชนิด เดิมใช้โดยยามในโรงไฟฟ้านิวเคลียร์"
 	new_implant.price = 0
 	new_implant.orbsuit = true
 	new_implant.torso = true
@@ -178,8 +178,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Tactical Blast Shield"
-	new_implant.explanation = "Complete protection from explosives. Allows the use of advanced demolition techniques."
+	new_implant.i_name = "โล่กันระเบิดแทคติค"
+	new_implant.explanation = "ป้องกันวัตถุระเบิดสมบูรณ์ สามารถใช้เทคนิคทำลายขั้นสูงได้"
 	new_implant.price = 6000
 	new_implant.explosive_shield = true
 	new_implant.torso = true
@@ -188,8 +188,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Load Bearing Vest"
-	new_implant.explanation = "One extra magazine for both weapons. Due to new clever construction it doesn't even slow you down."
+	new_implant.i_name = "เสื้อกั๊กหนัก"
+	new_implant.explanation = "แมกกระสุนเพิ่มขึ้นอีกหนึ่งสำหรับอาวุธทั้งสอง การออกแบบใหม่ทำให้ไม่ช้าลงเลย"
 	new_implant.price = 1200
 	new_implant.ammo_bonus = 1
 	new_implant.torso = true
@@ -198,8 +198,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Hazmat Suit"
-	new_implant.explanation = "Protection against toxic hazards. Funny looking."
+	new_implant.i_name = "ชุดป้องกันสารพิษ"
+	new_implant.explanation = "ป้องกันอันตรายจากสารพิษ ดูตลกดี"
 	new_implant.price = 0
 	new_implant.toxic_shield = true
 	new_implant.speed_bonus = 0
@@ -210,8 +210,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Military Camouflage"
-	new_implant.explanation = "Makes you slightly harder to spot. Increases enemy reaction time."
+	new_implant.i_name = "ลายพรางทหาร"
+	new_implant.explanation = "ทำให้สังเกตได้ยากขึ้น เพิ่มเวลาตอบสนองของศัตรู"
 	new_implant.price = 1000
 	new_implant.camo = 0.2
 	new_implant.torso = true
@@ -220,8 +220,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Stealth Suit"
-	new_implant.explanation = "Uses a coating of newly developed chameleon bacteria to make the user practically invisible up to about 20 universal length units. Has an overbearing stench and because of this the special forces units that make use of these are widely known as shitmen."
+	new_implant.i_name = "ชุดล่องหน"
+	new_implant.explanation = "ใช้แบคทีเรียกิ้งก่าที่พัฒนาใหม่ทำให้ผู้สวมใสเกือบมองไม่เห็นในระยะ 20 หน่วยสากล มีกลิ่นรุนแรงจนหน่วยรบพิเศษที่ใช้มันถูกเรียกว่าพวกคนขี้"
 	new_implant.price = 12000
 	new_implant.stealth = true
 	new_implant.torso = true
@@ -231,8 +231,8 @@ func _ready():
 	
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Bouncy Suit"
-	new_implant.explanation = "A special suit made out of exotic metamaterials designed for the next generation of orbital drop shocktroopers."
+	new_implant.i_name = "ชุดเด้ง"
+	new_implant.explanation = "ชุดพิเศษทำจากเมตาวัสดุพิสดารออกแบบมาสำหรับทหารกระโดดจากวงโคจรรุ่นต่อไป"
 	new_implant.price = 0
 	new_implant.bouncy = true
 	new_implant.torso = true
@@ -242,8 +242,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Extravagant Suit"
-	new_implant.explanation = "Only for special occasions. Offers zero protection."
+	new_implant.i_name = "ชุดหรูหรา"
+	new_implant.explanation = "สำหรับโอกาสพิเศษเท่านั้น ไม่ป้องกันเลย"
 	new_implant.price = 500000
 	new_implant.instadeath = true
 	new_implant.torso = true
@@ -252,8 +252,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Biothruster"
-	new_implant.explanation = "Propel yourself forwards with a powerful jet of sticky liquid from holes in your back. Replaces your kick."
+	new_implant.i_name = "จรวดชีวภาพ"
+	new_implant.explanation = "ขับเคลื่อนตัวเองไปข้างหน้าด้วยกระแสของเหลวเหนียวจากรูที่หลัง แทนที่การเตะ"
 	new_implant.price = 10000
 	new_implant.thrust = true
 	new_implant.torso = true
@@ -262,8 +262,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Biojet"
-	new_implant.explanation = "A powerful steady stream of warm liquid smoothly lifts you up and lets you fly like a bird. Replaces your kick."
+	new_implant.i_name = "เจ็ตชีวภาพ"
+	new_implant.explanation = "กระแสของเหลวอุ่นสม่ำเสมอยกตัวขึ้นและทำให้บินได้เหมือนนก แทนที่การเตะ"
 	new_implant.price = 0
 	new_implant.hidden = true
 	new_implant.jetpack = true
@@ -273,8 +273,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "HE Grenade"
-	new_implant.explanation = "Regular high explosive hand grenade. Can be used to breach through some locked doors."
+	new_implant.i_name = "ระเบิดมือ HE"
+	new_implant.explanation = "ระเบิดมือระเบิดแรงสูงธรรมดา สามารถใช้เบิกประตูล็อคบางบานได้"
 	new_implant.price = 1000
 	new_implant.speed_bonus = 0
 	new_implant.arms = true
@@ -284,8 +284,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Flechette Grenade"
-	new_implant.explanation = "Gives everything nearby a nice new coating tungsten flechettes."
+	new_implant.i_name = "ระเบิดเข็มหน้าไม้"
+	new_implant.explanation = "เคลือบทุกอย่างใกล้เคียงด้วยเข็มหน้าไม้ทังสเตน"
 	new_implant.price = 2000
 	new_implant.speed_bonus = 0
 	new_implant.arms = true
@@ -296,8 +296,8 @@ func _ready():
 	
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "ZZzzz Special Sedative Grenade"
-	new_implant.explanation = "Not in production anymore after most of the first batch ended up on the illegal drug market. Highly sought after for its capacity to induce euphoria that is said to be unlike anything else."
+	new_implant.i_name = "ระเบิดยาสลบพิเศษ ZZzzz"
+	new_implant.explanation = "ไม่ผลิตแล้วหลังจากรุ่นแรกส่วนใหญ่ไหลไปตลาดมืด เป็นที่ต้องการมากเพราะความสามารถในการทำให้เคลิ้มที่ว่ากันไม่เหมือนอะไร"
 	new_implant.price = 1000
 	new_implant.speed_bonus = 0
 	new_implant.arms = true
@@ -307,8 +307,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "First Aid Kit"
-	new_implant.explanation = "Single use healing item. Always good to have around. It used to be a common policy to keep a bunch of these in all the office restrooms but it was ended after most employees started appearing a little too high on health."
+	new_implant.i_name = "ชุดปฐมพยาบาล"
+	new_implant.explanation = "ไอเท็มรักษาใช้ครั้งเดียว ดีที่มีติดตัวไว้ เคยเป็นนโยบายที่เก็บไว้ในห้องน้ำสำนักงานทุกแห่งแต่ถูกยกเลิกหลังจากพนักงานส่วนใหญ่ดูสุขภาพดีเกินไป"
 	new_implant.price = 3000
 	new_implant.speed_bonus = 0
 	new_implant.arms = true
@@ -318,8 +318,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Zomy X-200 Portable Cassette Player"
-	new_implant.explanation = "Perfect for listening to your favorite tracks on the go."
+	new_implant.i_name = "เครื่องเล่นเทป Zomy X-200"
+	new_implant.explanation = "เหมาะสำหรับฟังเพลงโปรดระหว่างเดินทาง"
 	new_implant.price = 200
 	new_implant.radio = true
 	new_implant.speed_bonus = 0
@@ -330,8 +330,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Augmented arms"
-	new_implant.explanation = "Throw things with more force. Especially good for using someone's head as a projectile weapon."
+	new_implant.i_name = "แขนเสริม"
+	new_implant.explanation = "ขว้างของด้วยแรงมากขึ้น เหมาะสำหรับใช้หัวคนเป็นอาวุธยิง"
 	new_implant.price = 1000
 	new_implant.throw_bonus = 20
 	new_implant.speed_bonus = 0
@@ -341,8 +341,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Abominator"
-	new_implant.explanation = "Creates a reality bubble where the unbearable weight of Life is reversed."
+	new_implant.i_name = "ผู้ทำลาย"
+	new_implant.explanation = "สร้างฟองความเป็นจริงที่น้ำหนักของชีวิตที่ทนไม่ได้ถูกกลับด้าน"
 	new_implant.price = 0
 	new_implant.arms = true
 	new_implant.speed_bonus = 0
@@ -353,8 +353,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Grappendix"
-	new_implant.explanation = "An additional external intestine for climbing and swinging. Smooth, slick and strong. It pulsates."
+	new_implant.i_name = "ไส้เหนี่ยวเสริม"
+	new_implant.explanation = "ลำไส้ภายนอกเพิ่มเติมสำหรับปีนและแกว่ง ลื่น เนียน และแข็งแรง มันเต้น"
 	new_implant.price = 50000
 	new_implant.grapple = true
 	new_implant.speed_bonus = 0
@@ -364,8 +364,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Angular Advantage Tactical Munitions"
-	new_implant.explanation = "Due to increasing security measures some companies started manufacturing intentionally ricocheting bullets for otherwise impossible shots. Use extreme care when firing directly towards a target."
+	new_implant.i_name = "กระสุนเด้งแทคติค"
+	new_implant.explanation = "เนื่องจากมาตรการความปลอดภัยเพิ่มขึ้น บางบริษัทเริ่มผลิตกระสุนที่เด้งโดยเจตนาสำหรับการยิงที่เป็นไปไม่ได้ ระวังเมื่อยิงตรงไปยังเป้าหมาย"
 	new_implant.price = 1500
 	new_implant.ricochet = true
 	new_implant.arms = true
@@ -374,8 +374,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Ammunition Gland"
-	new_implant.explanation = "Your weapons automatically regenerate ammunition but you can no longer reload manually."
+	new_implant.i_name = "ต่อมผลิตกระสุน"
+	new_implant.explanation = "อาวุธฟื้นตัวกระสุนอัตโนมัติแต่ไม่สามารถรีโหลดด้วยตัวเองได้อีก"
 	new_implant.price = 10000
 	new_implant.regen_ammo = true
 	new_implant.arms = true
@@ -384,8 +384,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Cursed Torch"
-	new_implant.explanation = "A strange device with a doomed aura. The light it casts feels wrong.\n\n'It's possible to create an object that radiates pure death, even stronger than the sun. We can only pray that such knowledge remains hidden for aeons to come.'\n-Ferdinand Sommer the Elder"
+	new_implant.i_name = "คบเพลิงสาป"
+	new_implant.explanation = "อุปกรณ์ประหลาดที่มีออราสาปแช่ง แสงที่มันสาดรู้สึกผิด\n\n'มันเป็นไปได้ที่จะสร้างวัตถุที่แผ่ความตายบริสุทธิ์แรงกว่าดวงอาทิตย์ เราสามารถอธิษฐานได้เพียงว่าความรู้ดังกล่าวจะถูกซ่อนไว้อีกหลายยุค'\n-เฟอร์ดินันด์ ซอมเมอร์ ผู้อาวุโส"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
 	new_implant.arms = true
@@ -397,8 +397,8 @@ func _ready():
 	
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Alien Leg Wetware"
-	new_implant.explanation = "Simple wetware upgrade to turn off the kick strength limiter. Pulverize your target with incredible power."
+	new_implant.i_name = "เวตแวร์ขาเอเลียน"
+	new_implant.explanation = "อัพเกรดเวตแวร์ง่ายๆ ที่ปิดตัวจำกัดแรงเตะ บดขยี้เป้าหมายด้วยพลังมหาศาล"
 	new_implant.price = 4000
 	new_implant.kick_improvement = true
 	new_implant.legs = true
@@ -407,8 +407,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Pneumatic Legs"
-	new_implant.explanation = "Perfect for leaping over obstacles and getting to hard to reach areas."
+	new_implant.i_name = "ขานิวแมติก"
+	new_implant.explanation = "เหมาะสำหรับกระโดดข้ามอุปสรรคและไปที่เข้าถึงยาก"
 	new_implant.price = 3500
 	new_implant.jump_bonus = 3
 	new_implant.speed_bonus = 0
@@ -420,8 +420,8 @@ func _ready():
 
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Vertical Entry Device"
-	new_implant.explanation = "Significantly increases your jumping power. Not always very useful."
+	new_implant.i_name = "อุปกรณ์เข้าแนวดิ่ง"
+	new_implant.explanation = "เพิ่มพลังกระโดดอย่างมหาศาล ไม่ได้มีประโยชน์เสมอไป"
 	new_implant.price = 7000
 	new_implant.jump_bonus = 6
 	new_implant.speed_bonus = 0
@@ -431,8 +431,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Icaros Machine"
-	new_implant.explanation = "Designed for the military future fighter program as an attempt to reconfigure the linear spatial dimensionality of warfighting but retired after an entire squad of fully augmented supersoldiers ended up decentering biological life against the pavement."
+	new_implant.i_name = "เครื่องจักรอิคารอส"
+	new_implant.explanation = "ออกแบบมาสำหรับโครงการนักรบแห่งอนาคตเพื่อปรับโครงสร้างมิติเชิงเส้นตรงของสงคราม แต่ปลดประจำการหลังกองทหารเสริมเต็มรูปแบบทั้งกองร่วงดิ่งพื้น"
 	new_implant.price = 0
 	new_implant.jump_bonus = 20
 	new_implant.speed_bonus = 0
@@ -443,8 +443,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Gunkboosters"
-	new_implant.explanation = "Boost yourself upwards mid-air by releasing a jet of assorted biological detritus. Makes a huge mess that is extremely unpleasant to clean up."
+	new_implant.i_name = "จรวดเศษชีวภาพ"
+	new_implant.explanation = "พุ่งตัวขึ้นกลางอากาศโดยปล่อยเศษชีวภาพต่างๆ สร้างความเลอะเทะมหาศาลที่ทำความสะอาดได้ไม่พอใจเลย"
 	new_implant.price = 10000
 	new_implant.double_jump = 1
 	new_implant.legs = true
@@ -453,8 +453,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Funkgrunters"
-	new_implant.explanation = "An upgraded version of the Gunkboosters that allows you to boost twice. Not very popular due to the large uncomfortable container sacks installed below the buttocks."
+	new_implant.i_name = "จรวดพุ่งคู่"
+	new_implant.explanation = "เวอร์ชันอัพเกรดของจรวดเศษชีวภาพที่ให้พุ่งได้สองครั้ง ไม่ค่อยเป็นที่นิยมเพราะถุงเก็บขนาดใหญ่ที่ติดตั้งใต้ก้น"
 	new_implant.price = 0
 	new_implant.double_jump = 2
 	new_implant.legs = true
@@ -464,8 +464,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Microbial Oil Secretion Glands"
-	new_implant.explanation = "Squirt out special microbial oil that negates all friction and allows you to slide around freely. Surprisingly pleasant smell."
+	new_implant.i_name = "ต่อมหลั่งน้ำมันจุลินทรีย์"
+	new_implant.explanation = "พ่นน้ำมันจุลินทรีย์พิเศษที่ลดแรงเสียดทานทั้งหมดและทำให้ลื่นไปได้อย่างอิสระ กลิ่นหอมดีอย่างน่าประหลาดใจ"
 	new_implant.price = 0
 	new_implant.ski = true
 	new_implant.speed_bonus = 0
@@ -477,8 +477,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Composite Helmet"
-	new_implant.explanation = "A simple helmet that offers limited protection. Has a random chance of protecting you from a hit or breaking."
+	new_implant.i_name = "หมวกกันน็อคคอมโพสิต"
+	new_implant.explanation = "หมวกกันน็อคธรรมดาที่ป้องกันได้จำกัด มีโอกาสสุ่มที่จะป้องกันการโจมตีหรือแตก"
 	new_implant.price = 1000
 	new_implant.head = true
 	new_implant.helmet = true
@@ -487,8 +487,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Zoom N Go Bionic Eyes"
-	new_implant.explanation = "Thanks to the easy plug and play eyemplantation technology it's easy to just pop these in. Improved aim."
+	new_implant.i_name = "ตาชีวภาพซูมแอนโก"
+	new_implant.explanation = "ด้วยเทคโนโลยีฝังดวงตาแบบปลั๊กแอนด์เพลย์ง่ายๆ แค่เอาออกใส่ได้เลย เพิ่มการเล็ง"
 	new_implant.price = 1000
 	new_implant.head = true
 	new_implant.zoom_bonus = 0.5
@@ -497,8 +497,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Life Sensor"
-	new_implant.explanation = "Often said to be able to sense the life energy of any living being, the mechanism is actually the opposite. Allows you to sense holes in the background death matrix."
+	new_implant.i_name = "เซ็นเซอร์ชีวิต"
+	new_implant.explanation = "มักบอกว่าสามารถสัมผัสพลังชีวิตของสิ่งมีชีวิต แต่กลไกกลับกันจริงๆ ทำให้สัมผัสรูในเมทริกซ์ความตายพื้นหลัง"
 	new_implant.price = 9000
 	new_implant.head = true
 	new_implant.sensor = true
@@ -507,8 +507,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Skullgun"
-	new_implant.explanation = "Popular among completely braindead company mechs. A little bit of stuff is scooped out of the skull to make a better fit. Fires a three round burst of micro-caliber HE rounds."
+	new_implant.i_name = "ปืนกระโหลก"
+	new_implant.explanation = "เป็นที่นิยมในหมู่หุ่นยนต์บริษัทที่สมองตายแล้ว ต้องตักสมองออกนิดหน่อยเพื่อให้พอดี ยิงกระสุน HE จิ๋วสามนัด"
 	new_implant.price = 12000
 	new_implant.speed_bonus = 0
 	new_implant.head = true
@@ -518,8 +518,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Goo Overdrive"
-	new_implant.explanation = "Overrides the pituitary gland's natural hormone production causing your sweat to turn into sticky goo. Used by climbers."
+	new_implant.i_name = "โอเวอร์ไดรฟ์เมือก"
+	new_implant.explanation = "แทนที่การผลิตฮอร์โมนตามธรรมชาติของต่อมใต้สมองทำให้เหงื่อกลายเป็นเมือกเหนียว ใช้โดยนักปีน"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
 	new_implant.hidden = true
@@ -530,8 +530,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Flowerchute"
-	new_implant.explanation = "An extraterrestrial flower of unknow origin planted on the user's head. Works as a parachute and augments cognitive skills."
+	new_implant.i_name = "ร่มชูตดอกไม้"
+	new_implant.explanation = "ดอกไม้ต่างดาวที่ไม่ทราบที่มาปลูกบนหัวผู้ใช้ ทำงานเหมือนร่มชูชีพและเพิ่มทักษะทางปัญญา"
 	new_implant.price = 0
 	new_implant.slowfall = true
 	new_implant.head = true
@@ -541,8 +541,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Cortical Scaledown+"
-	new_implant.explanation = "Gives you the psychogenetic ability to shrink your body by influencing its scale value. Installed in the head extension port."
+	new_implant.i_name = "ตัวย่อสมอง+"
+	new_implant.explanation = "ให้ความสามารถทางจิตพันธุกรรมในการย่อร่างกายโดยอิทธิพลต่อค่าสเกล ติดตั้งในช่องเสริมหัว"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
 	new_implant.head = true
@@ -553,8 +553,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Tattered Rain Hat"
-	new_implant.explanation = "Old and worn. You've never seen it before but it feels nostalgic."
+	new_implant.i_name = "หมวกกันฝนเก่าขาด"
+	new_implant.explanation = "เก่าและสึกหรอ แกไม่เคยเห็นมาก่อนแต่รู้สึกคิดถึง"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
 	new_implant.head = true
@@ -565,8 +565,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 	
 	new_implant = Implant.new()
-	new_implant.i_name = "Eyes of Corporate Insight"
-	new_implant.explanation = "Melt into the ancient power of the markets."
+	new_implant.i_name = "ดวงตาหยั่งรู้บริษัท"
+	new_implant.explanation = "หลอมรวมเข้ากับพลังโบราณของตลาด"
 	new_implant.price = 250000
 	new_implant.market_enhancer = true
 	new_implant.speed_bonus = 0
@@ -576,8 +576,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Nightmare Vision Goggles"
-	new_implant.explanation = "They give off a putrid stench. Seemingly no effect on anything."
+	new_implant.i_name = "แว่นตาฝันร้าย"
+	new_implant.explanation = "มันส่งกลิ่นเหม็น ดูเหมือนไม่มีผลอะไร"
 	new_implant.price = 10
 	new_implant.speed_bonus = 0
 	new_implant.head = true
@@ -587,8 +587,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Night Vision Goggles"
-	new_implant.explanation = "Regular night vision goggles sensitive to the geometric flow of matter."
+	new_implant.i_name = "แว่นตามองกลางคืน"
+	new_implant.explanation = "แว่นตามองกลางคืนธรรมดาที่ไวต่อกระแสเรขาคณิตของสสาร"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
 	new_implant.head = true
@@ -599,7 +599,7 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "Holy Scope"
+	new_implant.i_name = "สโคปศักดิ์สิทธิ์"
 	new_implant.explanation = "???"
 	new_implant.price = 0
 	new_implant.speed_bonus = 0
@@ -611,8 +611,8 @@ func _ready():
 	IMPLANTS.append(new_implant)
 
 	new_implant = Implant.new()
-	new_implant.i_name = "House"
-	new_implant.explanation = "Your very own country house near the cozy village of Lake Green."
+	new_implant.i_name = "บ้าน"
+	new_implant.explanation = "บ้านชนบทของแกเองใกล้หมู่บ้านน่ารัก Lake Green"
 	new_implant.price = 1000000
 	new_implant.speed_bonus = 0
 	new_implant.texture = load("res://Levels/Bonus5.png")

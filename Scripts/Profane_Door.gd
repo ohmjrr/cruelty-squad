@@ -74,7 +74,7 @@ func player_use():
 		stop = not stop
 		open = not open
 	else:
-		Global.player.UI.notify("It repulses you.", Color(0.5, 0.5, 0))
+		Global.player.UI.notify("มันขับไสแก.", Color(0.5, 0.5, 0))
 		Global.player.player_velocity -= (global_transform.origin - Global.player.global_transform.origin).normalized() * 5
 
 

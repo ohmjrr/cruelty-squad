@@ -17,7 +17,7 @@ var current_speaker = 0
 const HEALTH = preload("res://Textures/UI/UILIFE.tres")
 const DEATH = preload("res://Textures/UI/UIDEATH.tres")
 var font = preload("res://Fonts/gamefont(1).ttf")
-var sniper_lines: Array = ["I CAN SEE YOU", "TARGET ACQUIRED", "RUN PIG", "YOU CAN'T HIDE"]
+var sniper_lines: Array = ["กูเห็นแก", "ล็อคเป้าหมายแล้ว", "วิ่งไปหมู", "แกซ่อนไม่ได้หรอก"]
 var sniper_audio: Array = ["res://Sfx/Sniper/Seeyou.wav", "res://Sfx/Sniper/targetacquired.wav", "res://Sfx/Sniper/runpig.wav", "res://Sfx/Sniper/canthide.wav"]
 onready var Toxic_UI = $UI_HBOX / Toxic
 var stop = false
@@ -196,7 +196,7 @@ func _draw():
 func draw_reload(pos, color):
 	draw_line(Vector2(pos.x, 0), Vector2(pos.x, 720), color)
 	draw_line(Vector2(pos.x - 20, 720 / 2), Vector2(pos.x + 20, 720 / 2), color)
-	draw_string(reload_font, Vector2(pos.x, 720 / 2), "Reload", color)
+	draw_string(reload_font, Vector2(pos.x, 720 / 2), "รีโหลด", color)
 	draw_line(Vector2(pos.x - 20, pos.y), Vector2(pos.x + 20, pos.y), color)
 	
 func set_dead():

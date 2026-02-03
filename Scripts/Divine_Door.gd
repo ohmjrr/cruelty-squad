@@ -74,11 +74,11 @@ func player_use():
 		stop = not stop
 		open = not open
 	elif Global.hope_discarded:
-		Global.player.UI.notify("It hurts.", Color(1, 0, 0))
-		Global.player.UI.notify("It hurts.", Color(1, 0, 0))
-		Global.player.UI.notify("It hurts.", Color(1, 0, 0))
-		Global.player.UI.notify("It hurts.", Color(1, 0, 0))
+		Global.player.UI.notify("มันเจ็บ.", Color(1, 0, 0))
+		Global.player.UI.notify("มันเจ็บ.", Color(1, 0, 0))
+		Global.player.UI.notify("มันเจ็บ.", Color(1, 0, 0))
+		Global.player.UI.notify("มันเจ็บ.", Color(1, 0, 0))
 	else:
-		Global.player.UI.notify("Feels like something is missing. It won't budge.", Color(0.9, 0.9, 1))
+		Global.player.UI.notify("รู้สึกเหมือนมีอะไรหายไป ประตูไม่ขยับ.", Color(0.9, 0.9, 1))
 
 

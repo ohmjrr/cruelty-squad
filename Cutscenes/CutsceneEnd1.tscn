@@ -212,7 +212,7 @@ radius = 1.53714
 [node name="Spatial" type="Spatial"]
 script = ExtResource( 1 )
 next_scene = "res://Menu/Main_Menu.tscn"
-LINES = [ "", "You emerge from a long and weary sleep.", "The world appears as a large flat plane of opportunity.", "The sky is boundless and blue.", "You are among friends.", "The air is fresh with the scent of the ocean", "You have learned acceptance and forgiveness", "But you lack knowledge and understanding.", "You will be trapped forever.", "The past is ever-present.", "The sun smiles at you with eternal malice.", "" ]
+LINES = [ "", "แกผุดขึ้นจากการหลับยาวนานแสนเหนื่อย.", "โลกปรากฏเป็นราบใหญ่แห่งโอกาส.", "ท้องฟ้าไร้ขีดจำกัดและเป็นสีฟ้า.", "แกอยู่ท่ามกลางเพื่อน.", "อากาศสดชื่นด้วยกลิ่นมหาสมุทร", "แกได้เรียนรู้การยอมรับและการให้อภัย", "แต่แกขาดความรู้และความเข้าใจ.", "แกจะติดกับตลอดกาล.", "อดีตยังคงอยู่ตลอดไป.", "ดวงอาทิตย์ยิ้มให้แกด้วยความอาฆาตร้ายนิรันดร์.", "" ]
 DURATION = [ 13, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 20.0, 100.0 ]
 music = "res://Sfx/Music/ending.ogg"
 instant = true

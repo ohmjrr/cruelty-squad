@@ -31,7 +31,7 @@ func _physics_process(delta):
 		elif randi() % 2 == 1:
 			spawn_item()
 		else:
-			Global.player.UI.notify("You lose", Color(1, 0, 0))
+			Global.player.UI.notify("แกแพ้", Color(1, 0, 0))
 
 
 
@@ -44,7 +44,7 @@ func player_use():
 	if rotation_counter >= 0:
 		return
 	if Global.money < 10:
-		Global.player.UI.notify("$10 required to play", Color(1, 0, 0))
+		Global.player.UI.notify("ต้องมี $10 ถึงเล่นได้", Color(1, 0, 0))
 		return
 	Global.money -= 10
 	rotation_counter = 50

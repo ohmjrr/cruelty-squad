@@ -74,7 +74,7 @@ func player_use():
 		stop = not stop
 		open = not open
 	else:
-		Global.player.UI.notify("The door is locked.", Color(0.6, 0.6, 0.6))
+		Global.player.UI.notify("ประตูล็อคอยู่.", Color(0.6, 0.6, 0.6))
 
 
 func piercing_damage(damage, collision_n, collision_p, shooter_pos):

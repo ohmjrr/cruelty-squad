@@ -142,7 +142,7 @@ text = "102429"
 margin_right = 405.0
 margin_bottom = 76.0
 window_title = ""
-dialog_text = "Do you want to purchase X?"
+dialog_text = "แกอยากซื้อ X มั้ย?"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Character_Container"]
 show_behind_parent = true
@@ -211,7 +211,7 @@ margin_bottom = 40.0
 margin_top = 33.0
 margin_right = 59.0
 margin_bottom = 59.0
-text = "Buy"
+text = "ซื้อ"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -224,7 +224,7 @@ margin_bottom = 40.0
 margin_top = 59.0
 margin_right = 59.0
 margin_bottom = 85.0
-text = "Sell"
+text = "ขาย"
 __meta__ = {
 "_edit_use_anchors_": false
 }

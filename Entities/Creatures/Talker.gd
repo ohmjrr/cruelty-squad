@@ -4,7 +4,7 @@ extends Area
 
 
 
-export var line = "Wake up sheeple."
+export var line = "ตื่นเถอะแกะ."
 
 
 func _ready():

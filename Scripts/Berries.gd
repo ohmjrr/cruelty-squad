@@ -34,7 +34,7 @@ func player_use():
 				Global.player.drug_gravity_flag = true
 		get_parent().get_node("AudioStreamPlayer3D").play()
 		get_parent().visible = false
-		Global.player.UI.notify("You ate pills.", Color(1, 0.0, 1.0))
+		Global.player.UI.notify("แกกินยาเข้าไปแล้ว", Color(1, 0.0, 1.0))
 		queue_free()
 	if healing:
 		Global.player.add_health(healing_amount)

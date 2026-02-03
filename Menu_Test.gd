@@ -107,7 +107,7 @@ preload("res://Textures/rank_letters/B.png"),
 preload("res://Textures/rank_letters/A.png"), 
 preload("res://Textures/rank_letters/S.png"), 
 preload("res://Textures/rank_letters/N.png")]
-var LEVEL_NAMES: Array = ["Training Facility", "Headquarters", "Suburb", "Spaceport", "PD", "Mall", "Apartment", "Ship", "Swamp", "Casino", "Castle", "Office", "Archon Grid", "NEED", "HELP", "END", "PAIN", "NOW", "AAAAAA"]
+var LEVEL_NAMES: Array = ["สนามฝึก", "สำนักงานใหญ่", "ชานเมือง", "ท่าอวกาศ", "สน.ตำรวจ", "ห้าง", "อพาร์ทเมนท์", "เรือ", "บึงโคลน", "คาสิโน", "ปราสาท", "สำนักงาน", "กริดอาร์คอน", "ต้องการ", "ช่วย", "จบ", "เจ็บ", "เดี๋ยวนี้", "อ๊าาาา"]
 
 const HANDLER_FRAMES: Array = [preload("res://Textures/Menu/Handler/1.png"), 
 								preload("res://Textures/Menu/Handler/2.png"), 
@@ -245,7 +245,7 @@ func _ready():
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Timer.pressed = Global.timer
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Highperformance.pressed = Global.high_performance
 	Global.screenmat.set_shader_param("gamma", Global.gamma)
-	$Settings / GridContainer / PanelContainer / VBoxContainer / GAMMALABEL.text = "Gamma: " + str(Global.gamma)
+	$Settings / GridContainer / PanelContainer / VBoxContainer / GAMMALABEL.text = "แกมม่า: " + str(Global.gamma)
 	$"Settings/GridContainer/PanelContainer/VBoxContainer/Camera Sway".pressed = Global.camera_sway
 	
 	$Settings / GridContainer / PanelContainer5 / CheckBox.pressed = Global.full_screen
@@ -261,33 +261,33 @@ func _ready():
 		LEVEL_NAMES[level] = parsed_level_meta.get("name")
 		meta_file.close()
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Reflections.pressed = Global.reflections
-	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Draw_Label.text = "Draw Distance:\n" + str(Global.draw_distance)
+	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Draw_Label.text = "ระยะวาดภาพ:\n" + str(Global.draw_distance)
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Drawslider.value = Global.draw_distance
 	_on_Civslider_value_changed(Global.civilian_reduction)
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Civslider.value = Global.civilian_reduction
 	$Level_Info_Grid / Level_Info_Vbox / Weapons_Vbox / TextureRect.texture = $Weapon1_Viewport.get_texture()
 	$Level_Info_Grid / Level_Info_Vbox / Weapons_Vbox / TextureRect2.texture = $Weapon2_Viewport.get_texture()
 	var keylist = $Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List
-	keylist.add_item("Forward: " + InputMap.get_action_list("movement_forward")[0].as_text())
-	keylist.add_item("Left: " + InputMap.get_action_list("movement_left")[0].as_text())
-	keylist.add_item("Right: " + InputMap.get_action_list("movement_right")[0].as_text())
-	keylist.add_item("Back: " + InputMap.get_action_list("movement_backward")[0].as_text())
-	keylist.add_item("Shoot: " + InputMap.get_action_list("mouse_1")[0].as_text())
-	keylist.add_item("Jump: " + InputMap.get_action_list("movement_jump")[0].as_text())
-	keylist.add_item("Crouch: " + InputMap.get_action_list("crouch")[0].as_text())
-	keylist.add_item("Reload: " + InputMap.get_action_list("reload")[0].as_text())
-	keylist.add_item("Zoom: " + InputMap.get_action_list("zoom")[0].as_text())
-	keylist.add_item("Use: " + InputMap.get_action_list("Use")[0].as_text())
-	keylist.add_item("Kick: " + InputMap.get_action_list("kick")[0].as_text())
-	keylist.add_item("Lean Left: " + InputMap.get_action_list("Lean_Left")[0].as_text())
-	keylist.add_item("Lean Right: " + InputMap.get_action_list("Lean_Right")[0].as_text())
-	keylist.add_item("Weapon 1: " + InputMap.get_action_list("weapon1")[0].as_text())
-	keylist.add_item("Weapon 2: " + InputMap.get_action_list("weapon2")[0].as_text())
-	keylist.add_item("Last Weapon: " + InputMap.get_action_list("switch_weapon")[0].as_text())
-	keylist.add_item("Tertiary Weapon: " + InputMap.get_action_list("Tertiary_Weapon")[0].as_text())
-	keylist.add_item("Throw Weapon: " + InputMap.get_action_list("drop")[0].as_text())
-	keylist.add_item("Suicide: " + InputMap.get_action_list("Suicide")[0].as_text())
-	keylist.add_item("Stock Market: " + InputMap.get_action_list("Stocks")[0].as_text())
+	keylist.add_item("หน้า: " + InputMap.get_action_list("movement_forward")[0].as_text())
+	keylist.add_item("ซ้าย: " + InputMap.get_action_list("movement_left")[0].as_text())
+	keylist.add_item("ขวา: " + InputMap.get_action_list("movement_right")[0].as_text())
+	keylist.add_item("หลัง: " + InputMap.get_action_list("movement_backward")[0].as_text())
+	keylist.add_item("ยิง: " + InputMap.get_action_list("mouse_1")[0].as_text())
+	keylist.add_item("กระโดด: " + InputMap.get_action_list("movement_jump")[0].as_text())
+	keylist.add_item("ย่อตัว: " + InputMap.get_action_list("crouch")[0].as_text())
+	keylist.add_item("รีโหลด: " + InputMap.get_action_list("reload")[0].as_text())
+	keylist.add_item("ซูม: " + InputMap.get_action_list("zoom")[0].as_text())
+	keylist.add_item("ใช้งาน: " + InputMap.get_action_list("Use")[0].as_text())
+	keylist.add_item("เตะ: " + InputMap.get_action_list("kick")[0].as_text())
+	keylist.add_item("เอียงซ้าย: " + InputMap.get_action_list("Lean_Left")[0].as_text())
+	keylist.add_item("เอียงขวา: " + InputMap.get_action_list("Lean_Right")[0].as_text())
+	keylist.add_item("อาวุธ 1: " + InputMap.get_action_list("weapon1")[0].as_text())
+	keylist.add_item("อาวุธ 2: " + InputMap.get_action_list("weapon2")[0].as_text())
+	keylist.add_item("อาวุธก่อนหน้า: " + InputMap.get_action_list("switch_weapon")[0].as_text())
+	keylist.add_item("อาวุธสำรอง: " + InputMap.get_action_list("Tertiary_Weapon")[0].as_text())
+	keylist.add_item("โยนอาวุธ: " + InputMap.get_action_list("drop")[0].as_text())
+	keylist.add_item("ฆ่าตัวตาย: " + InputMap.get_action_list("Suicide")[0].as_text())
+	keylist.add_item("ตลาดหุ้น: " + InputMap.get_action_list("Stocks")[0].as_text())
 	$MyWork.rect_global_position.x = 170
 	$MyWork.rect_global_position.y = 248
 	hover_info = $Hover_Panel / Hover_Info
@@ -333,7 +333,7 @@ func _ready():
 	$Settings / GridContainer / PanelContainer3 / VBoxContainer2 / Master_Volume.value = Global.master_volume
 	$Settings / GridContainer / PanelContainer3 / VBoxContainer2 / Music_Volume.value = Global.music_volume
 	$Settings / GridContainer / PanelContainer / VBoxContainer / FOV.value = Global.FOV
-	$Settings / GridContainer / PanelContainer / VBoxContainer / FOVLABEL.text = "FOV: " + str(Global.FOV)
+	$Settings / GridContainer / PanelContainer / VBoxContainer / FOVLABEL.text = "มุมมอง: " + str(Global.FOV)
 	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / SkipIntro.pressed = Global.skip_intro
 	$Settings / GridContainer / PanelContainer4 / VBoxContainer3 / Blood_Color_Rect.color = Global.blood_color
 	$Settings / GridContainer / PanelContainer4 / VBoxContainer3 / HBoxContainer / R.value = Global.blood_color.r
@@ -405,9 +405,9 @@ func create_buttons(m: int):
 	for i in range(menu[m].buttons.size()):
 		match menu[m].buttons[i]:
 			B_RETRY:
-				create_button(m, "Retry", "_on_Retry_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "ลองใหม่", "_on_Retry_Button_Pressed", menu[m].buttons[i])
 			B_START:
-				create_button(m, "Start", "_on_Start_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "เริ่มเลย", "_on_Start_Button_Pressed", menu[m].buttons[i])
 			B_LEVEL:
 				level_buttons.append(create_button(m, LEVEL_NAMES[level], "_on_Level_Pressed", menu[m].buttons[i]))
 				level += 1
@@ -415,112 +415,112 @@ func create_buttons(m: int):
 				
 				
 			B_SETTINGS:
-				create_button(m, "Settings", "_on_Settings_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "ตั้งค่า", "_on_Settings_Button_Pressed", menu[m].buttons[i])
 			B_QUIT:
-				create_button(m, "Quit", "_on_Quit_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "ออกเกมเลย", "_on_Quit_Button_Pressed", menu[m].buttons[i])
 			B_EX_MENU:
-				create_button(m, "Exit to Menu", "_on_Exit_Menu_Pressed", menu[m].buttons[i])
+				create_button(m, "กลับเมนูหลัก", "_on_Exit_Menu_Pressed", menu[m].buttons[i])
 			B_EX_LEVEL_SELECT:
-				create_button(m, "Exit to Level Select", "_on_Exit_Level_Select_Pressed", menu[m].buttons[i])
+				create_button(m, "กลับเลือกด่าน", "_on_Exit_Level_Select_Pressed", menu[m].buttons[i])
 			B_RETURN:
-				create_button(m, "Return", "_on_Return_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "กลับ", "_on_Return_Button_Pressed", menu[m].buttons[i])
 			B_WEAPON_1:
-				weapon_select_buttons.append(create_button(m, "Select Weapon 1", "_on_Weapon_1_Pressed", menu[m].buttons[i]))
+				weapon_select_buttons.append(create_button(m, "เลือกอาวุธ 1", "_on_Weapon_1_Pressed", menu[m].buttons[i]))
 			B_WEAPON_2:
-				weapon_select_buttons.append(create_button(m, "Select Weapon 2", "_on_Weapon_2_Pressed", menu[m].buttons[i]))
+				weapon_select_buttons.append(create_button(m, "เลือกอาวุธ 2", "_on_Weapon_2_Pressed", menu[m].buttons[i]))
 			B_CHARACTER:
-				create_button(m, "Equipment & Implants", "_on_Implants_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "อุปกรณ์ & อวัยวะฝัง", "_on_Implants_Button_Pressed", menu[m].buttons[i])
 			B_STOCKS:
-				create_button(m, "Stock Market", "_on_Stocks_Button_Pressed", menu[m].buttons[i])
+				create_button(m, "ตลาดหุ้น", "_on_Stocks_Button_Pressed", menu[m].buttons[i])
 			B_W_PISTOL:
-				var wep = create_button(m, "Parasonic D2 Silenced Pistol", "_on_Pistol_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Uses special 10mm subsonic ammunition for extremely silent operation. Popular among high-end private security and wetworks services, as well as tactical wannabes."
+				var wep = create_button(m, "Parasonic D2 ปืนเงียบ", "_on_Pistol_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "ใช้กระสุนความเร็วต่ำกว่าเสียง 10มม.พิเศษสำหรับการยิงเงียบเป็นพิเศษ นิยมในหมู่การ์ดเอกชนระดับไฮเอนด์และบริการจัดการศพ รวมถึงพวกอยากเท่ทางยุทธวิธี"
 			B_W_SMG:
 				var wep = create_button(m, "K&H R5", "_on_SMG_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "One of the most widely used submachine guns since the 80s. Unmatched reliability and ease of operation."
+				wep.hint_tooltip = "หนึ่งในปืนกลที่ใช้กันแพร่หลายที่สุดตั้งแต่ยุค 80 ความทนทานและการใช้งานง่ายไม่มีใครเทียบได้"
 			B_W_S_SMG:
 				var wep = create_button(m, "Minato M9", "_on_S_SMG_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Imported in great quantities by people of taste after being featured in the anime Haato no DokiDoki: Zankokudan."
+				wep.hint_tooltip = "นำเข้ามาในปริมาณมากโดยคนมีรสนิยมหลังจากปรากฏในอะนิเมะ Haato no DokiDoki: Zankokudan"
 			B_W_SHOTGUN:
 				var wep = create_button(m, "Balotelli Hypernova", "_on_Shotgun_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Following the rapid proliferation of advanced high quality body armor and the subsequent move from traditional buckshot to more effective flechette based shells, Belatelli Hypernova has proven to be the most cost effective solution."
+				wep.hint_tooltip = "หลังจากเสื้อกันกระสุนคุณภาพสูงแพร่หลายอย่างรวดเร็วและการเปลี่ยนจากลูกปรายแบบเดิมมาเป็นกระสุนฟเลชเตที่มีประสิทธิภาพมากกว่า Balotelli Hypernova ได้พิสูจน์ว่าเป็นทางเลือกที่คุ้มค่าที่สุด"
 			B_W_RL:
-				var wep = create_button(m, "Security Systems Anti-Armor Device", "_on_RL_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "At some point arms manufacturer Security Systems managed to convince the world that it was absolutely necessary for corporate security to possess military-grade rocket launchers."
+				var wep = create_button(m, "Security Systems เครื่องต่อต้านเกราะ", "_on_RL_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "ถึงจุดหนึ่งผู้ผลิตอาวุธ Security Systems สามารถโน้มน้าวโลกว่าการ์ดองค์กรจำเป็นต้องมีจรวดยิงระดับกองทัพ"
 			B_W_SNIPER:
 				var wep = create_button(m, "Stern AWS 3000", "_on_Sniper_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "The AWS 3000 uses a special sabot round with a 30 cm long depleted uranium penetrator. It is of course designed to counter armored targets but when it hits something soft it often tumbles and leaves more wound channel than target."
+				wep.hint_tooltip = "AWS 3000 ใช้กระสุนแบบซะโบต์พิเศษพร้อมหัวเจาะยูเรเนียมหมดพลัง 30 ซม. ออกแบบมาเพื่อต่อต้านเป้าหมายหุ้มเกราะแต่เวลาโดนอะไรนุ่มๆ มักหมุนเข้าแล้วทิ้งรูบาดแผลมากกว่าเป้าหมายซะอีก"
 			B_W_AR:
 				var wep = create_button(m, "K&H X20", "_on_AR_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "The Karl & Heinrich X20 immediately became a huge hit with elite security. It fires extremely accurate 3 round rapid fire bursts with very manageable recoil. The rounds are completely caseless meaning it can hold a large amount of ammunition without becoming cumbersome to carry, and doesn't leave behind as much evidence."
+				wep.hint_tooltip = "Karl & Heinrich X20 กลายเป็นขวัญใจการ์ดชั้นสูงทันที ยิงแบบ 3 นัดเร็วแม่นยำมากและแรงสะท้อนควบคุมได้ กระสุนไม่มีปลอกหมายถึงจุกระสุนได้มากโดยไม่เพิ่มน้ำหนัก และไม่ทิ้งหลักฐานมากนัก"
 			B_W_NAMBU:
 				var wep = create_button(m, "New Safety M62", "_on_Nambu_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Standard police issue handgun for more than a hundred years. While more efficient options exist the cops have decided to stick with this due to masculine associations created by the film industry."
+				wep.hint_tooltip = "ปืนมาตรฐานตำรวจมามากกว่าร้อยปี แม้จะมีตัวเลือกที่ดีกว่าแต่ตำรวจเลือกใช้เพราะภาพลักษณ์ความเป็นชายจากอุตสาหกรรมหนัง"
 			B_W_GAS_LAUNCHER:
-				var wep = create_button(m, "Riot Pacifier", "_on_Gas_Launcher_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Fires a grenade filled with corrosive gas. Eats through almost everything. Hasn't seen much use since the food riots of the early 00s."
+				var wep = create_button(m, "เครื่องปราบจลาจล", "_on_Gas_Launcher_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "ยิงลูกระเบิดบรรจุแก๊สกัดกร่อน กัดกินแทบทุกสิ่ง ไม่ค่อยใช้ตั้งแต่จลาจลอาหารช่วงต้นยุค 00"
 			B_W_MG3:
 				var wep = create_button(m, "AMG4", "_on_MG3_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Traditionally a weapon of the highly augmented military grunt, it has recently seen increasing use in the corporate setting. Extremely high rate of fire and good armor penetration thanks to the DU rounds it usually comes with."
+				wep.hint_tooltip = "ตามประเพณีคืออาวุธทหารพื้นดินที่ถูกเสริมความสามารถสูง เมื่อเร็วๆนี้ถูกใช้มากขึ้นในภาคองค์กร อัตราการยิงสูงมากและเจาะเกราะดีเพราะกระสุน DU ที่มักมาพร้อม"
 			B_W_AUTOSHOTGUN:
 				var wep = create_button(m, "Precise Industries AS15", "_on_Autoshotgun_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A fully automatic shotgun capable of tearing almost everything into shreds up close. Complete overkill but popular with killers emotionally dulled by battle drugs."
+				wep.hint_tooltip = "ลูกซองอัตโนมัติเต็มรูปแบบที่ฉีกทุกสิ่งในระยะประชิด เกินความจำเป็นแต่เป็นที่นิยมในหมู่นักฆ่าที่ถูกยาเสพติดทำให้อารมณ์ชา"
 			B_W_MAUSER:
 				var wep = create_button(m, "Mowzer SP99", "_on_Mauser_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Accurate and extremely silent bolt-action sniper rifle. Perfect for covert and illegal operations. An important symbol of the swamp cultist who claim to receive divine messages from them."
+				wep.hint_tooltip = "ปืนสไนเปอร์แบบลั่นเลื่อนที่แม่นยำและเงียบมาก เหมาะสำหรับปฏิบัติการลับและผิดกฎหมาย เป็นสัญลักษณ์สำคัญของลัทธิบึงที่อ้างว่าได้รับสารศักดิ์สิทธิ์จากมัน"
 			B_W_BORE:
-				var wep = create_button(m, "Security Systems Cerebral Bore", "_on_Bore_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Security Systems have done it once again. This incredibly high tech vat grown bioweapon is itself a small biobreeder, capable of creating a small burrower flesh orb that goes for the target's head and empties it on the floor. For energy it sucks some life force out of the user. Neat huh?"
+				var wep = create_button(m, "Security Systems เครื่องเจาะกะโหลก", "_on_Bore_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "Security Systems ทำได้อีกแล้ว อาวุธชีวภาพไฮเทคที่เพาะเลี้ยงในถังตัวนี้เป็นเครื่องเพาะพันธุ์ชีวะขนาดเล็ก สามารถสร้างลูกบอลเนื้อเจาะตัวเล็กๆที่พุ่งเข้าหัวเป้าหมายแล้วเทสมองลงพื้น เพื่อให้ได้พลังงานมันดูดพลังชีวิตจากผู้ใช้ เจ๋งมั้ย?"
 			B_W_MKR:
 				var wep = create_button(m, "Spectacular Dynamics MCR Carbine", "_on_MKR_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A futuristic microcaliber platform that never reached a huge popularity despite many advantages. Uses strange factory sealed disposable magazines and proprietary caseless ammunition."
+				wep.hint_tooltip = "แพลตฟอร์มไมโครแคลิเบอร์แห่งอนาคตที่ไม่เคยได้รับความนิยมใหญ่ทั้งที่มีข้อดีมากมาย ใช้แมกกาซีนใช้แล้วทิ้งแปลกๆที่ปิดผนึกจากโรงงานและกระสุนไม่มีปลอกเฉพาะทาง"
 			B_W_RADGUN:
 				var wep = create_button(m, "Bolt ACR", "_on_Radgun_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "The goal of the Advanced Combat Rifle program was to create an energy weapon that wouldn't need to be reloaded at all. One of the results was this unfortunate portable gamma radiation emitter. Though often said to be illegal due to international agreements regarding radiation based weapons (no such agreements exist), the reason it never got much use is that most of the test subjects ended up accidentally killing themselves."
+				wep.hint_tooltip = "เป้าหมายของโปรแกรมปืนรบขั้นสูงคือสร้างอาวุธพลังงานที่ไม่ต้องรีโหลดเลย หนึ่งในผลลัพธ์คือเครื่องปล่อยกัมมันตระพาบพกพาตัวอัปลักษ์นี้ แม้มักพูดกันว่าผิดกฎหมายเพราะข้อตกลงเรื่องอาวุธพลังงานกัมมันตระ (ไม่มีข้อตกลงแบบนี้) เหตุผลที่แท้จริงคือตัวอย่างทดสอบส่วนใหญ่ฝึกตัวตายโดยอุบัติเหตุ"
 			B_W_TRANQ:
-				var wep = create_button(m, "SNOOZEFEST Animal Control Pistol", "_on_Tranq_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "As the cost of human life is low, there has been no real attempt to create a tranquilizer gun for security or military needs. Some have however adopted these animal control pistols as a less messy way to get past overly vigilant security."
+				var wep = create_button(m, "SNOOZEFEST ปืนควบคุมสัตว์", "_on_Tranq_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "เนื่องจากมูลค่าชีวิตคนต่ำ จึงไม่เคยมีความพยายามสร้างปืนยาสลบสำหรับการ์ดหรือกองทัพ บางคนนำปืนควบคุมสัตว์มาใช้เป็นทางผ่านยามที่ไม่เลอะ"
 			B_W_BLACKJACK:
-				var wep = create_button(m, "Expandable Baton", "_on_Blackjack_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A standard device for knocking people out cold. The design has been the same since the early middle ages, only the materials have been improved."
+				var wep = create_button(m, "ไม้กระบองยืดได้", "_on_Blackjack_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "อุปกรณ์มาตรฐานสำหรับกระแทกคนสลบ ดีไซน์เหมือนเดิมตั้งแต่ยุคกลางแค่วัสดุดีขึ้น"
 			B_W_FLASHLIGHT:
-				var wep = create_button(m, "Flashlight", "_on_Flashlight_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A simple flashlight, not very useful. Or is it?"
+				var wep = create_button(m, "ไฟฉาย", "_on_Flashlight_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "ไฟฉายธรรมดา ไม่ค่อยมีประโยชน์ หรือมี?"
 			B_W_ZIPPY:
 				var wep = create_button(m, "Zippy 3000", "_on_Zippy_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "The ultimate weapon, in ejection failures and misfires. You'll be lucky to get two shots out of this thing without blowing off your fingers."
+				wep.hint_tooltip = "อาวุธขั้นสุดในเรื่องกระสุนติดและยิงพลาด แกโชคดีถ้ายิงได้สองนัดโดยไม่ระเบิดนิ้ว"
 			B_W_AN94:
 				var wep = create_button(m, "BN-99", "_on_AN94_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A mysterious weapon lost to time. Made out of an accursed alloy. Has a unique two shot burst firing mechanism."
+				wep.hint_tooltip = "อาวุธลึกลับสูญหายไปกับกาลเวลา ทำจากโลหะสาปแช่ง มีกลไกยิงสองนัดเร็วเฉพาะตัว"
 			B_W_VAG72:
 				var wep = create_button(m, "BAG-82", "_on_VAG72_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Strange experimental caseless pistol created by an ancient civilization. Foul odour, who knows where this has been."
+				wep.hint_tooltip = "ปืนทดลองไม่มีปลอกแปลกประดิษฐ์สร้างโดยอารยธรรมโบราณ มีกลิ่นเหม็น ไม่รู้ว่าอยู่ที่ไหนมา"
 			B_W_STEYR:
 				var wep = create_button(m, "Stern M17", "_on_Steyr_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Winner of the advanced combat rifle program. Has widely replaced most other rifles in elite military use. Rapid three round burst of flechette rounds significantly increases hit probability."
+				wep.hint_tooltip = "ผู้ชนะโปรแกรมปืนรบขั้นสูง ได้แทนที่ปืนส่วนใหญ่อื่นๆในกองทัพชั้นสูง กระสุนฟเลชเต 3 นัดเร็วเพิ่มโอกาสโดนอย่างมาก"
 			B_W_CANCER:
-				var wep = create_button(m, "Parasonic C3 DNA Scrambler", "_on_DNA_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "High value targets often have immediate access to body reconstruction services and as such it has become a popular choice to mangle their genetic makeup beyond all repair with a hi-tech weapon like the Parasonic C3."
+				var wep = create_button(m, "Parasonic C3 เครื่องปั่น DNA", "_on_DNA_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "เป้าหมายมูลค่าสูงมักมีบริการสร้างร่างกายทันทีจึงนิยมทำลายสารพันธุกรรมของพวกเขาจนซ่อมไม่ได้ด้วยอาวุธไฮเทคอย่าง Parasonic C3"
 			B_W_ROD:
-				var wep = create_button(m, "Fiberglass Fishing Rod", "_on_Rod_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Enter the World of Fish and become who you were meant to be."
+				var wep = create_button(m, "เบ็ดตกปลาไฟเบอร์กลาส", "_on_Rod_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "เข้าสู่โลกของปลาและกลายเป็นสิ่งที่แกถูกกำหนดมา"
 			B_W_FLAMETHROWER:
-				var wep = create_button(m, "RPO-80 Sanitization System", "_on_FT_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Janitorial work in the age of bioprinters and homebrew infectious disease follows these simple rules: Contain, Purify, Control."
+				var wep = create_button(m, "RPO-80 ระบบชำระล้าง", "_on_FT_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "งานภารโรงในยุคบายโอพรินเตอร์และโรคติดเชื้อทำเองตามกฎง่ายๆนี้: กักตัว, ชำระล้าง, ควบคุม"
 			B_W_SKS:
-				var wep = create_button(m, "ZKZ Transactional Rifle", "_on_SKS_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Primordial weapon attuned to the beating heart of the financial system."
+				var wep = create_button(m, "ZKZ ปืนธุรกรรม", "_on_SKS_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "อาวุธดึกดำบรรพ์ที่เชื่อมโยงกับหัวใจที่เต้นระบีดของระบบการเงิน"
 			B_W_NAILER:
-				var wep = create_button(m, "Parasonic MP-1 Nailer", "_on_Nailer_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Parasonic's new personal defense weapon provides never before seen firepower in a compact form factor. Fires ultra high velocity depleted uranium nails from a high-capacity helical magazine."
+				var wep = create_button(m, "Parasonic MP-1 ตะปูตะปูบ", "_on_Nailer_Pressed", menu[m].buttons[i])
+				wep.hint_tooltip = "อาวุธป้องกันตัวใหม่ของ Parasonic มอบพลังยิงที่ไม่เคยเห็นมาก่อนในรูปแบบกะทัดรัด ยิงตะปูยูเรเนียมหมดพลังความเร็วสูงมากจากแมกกาซีนขดลวดสูง"
 			B_W_SHOCK:
 				var wep = create_button(m, "Raymond Shocktroop Tactical", "_on_Shock_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "A compact but powerful semi-automatic shotgun, popular in the law enforcement business for clearing out regenerative art communes."
+				wep.hint_tooltip = "ลูกซองกึ่งอัตโนมัติกะทัดรัดแต่ทรงพลัง เป็นที่นิยมในวงการบังคับใช้กฎหมายสำหรับกวาดล้างคอมมูนศิลปะฟื้นฟู"
 			B_W_LIGHT:
 				var wep = create_button(m, "Abscess Ironworks Lux ff374f727ce9d6d6e93be0793733c321", "_on_Light_Pressed", menu[m].buttons[i])
-				wep.hint_tooltip = "Bask in the golden light of your radiant path."
+				wep.hint_tooltip = "อาบแสงทองของเส้นทางอันรุ่งโรจน์ของแก"
 			B_MISSION_START:
-				create_button(m, "Start Mission", "_on_Mission_Start_Pressed", menu[m].buttons[i])
+				create_button(m, "เริ่มภารกิจ", "_on_Mission_Start_Pressed", menu[m].buttons[i])
 			_:
 				print("BUTTON ERROR")
 
@@ -620,7 +620,7 @@ func _on_Start_Button_Pressed(m: int, button_id: TextureButton):
 func _on_Settings_Button_Pressed(m: int, button_id: TextureButton):
 	goto_menu(m, SETTINGS, button_id)
 	active_element = $Settings
-	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "Active Play Time:\n" + Global.time2str(Global.play_time)
+	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "เวลาเล่นทั้งหมด:\n" + Global.time2str(Global.play_time)
 	$Settings.rect_position.x = 320
 	$Settings.raise()
 	$Settings.come()
@@ -1229,7 +1229,7 @@ func _on_M_Sensitivity_value_changed(value):
 
 func _on_FOV_value_changed(value):
 	Global.FOV = value
-	$Settings / GridContainer / PanelContainer / VBoxContainer / FOVLABEL.text = "FOV: " + str(Global.FOV)
+	$Settings / GridContainer / PanelContainer / VBoxContainer / FOVLABEL.text = "มุมมอง: " + str(Global.FOV)
 
 func _on_Character_Speak():
 	$Level_Info_Grid / HBoxContainer / VBoxContainer / Portrait.texture = HANDLER_FRAMES[randi() % 3]
@@ -1366,10 +1366,10 @@ func _on_Key_List_item_activated(index):
 			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Reload: " + key_pressed.as_text())
 		KEY_LEAN_LEFT:
 			set_inputs("Lean_Left")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Lean Left: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "เอียงซ้าย: " + key_pressed.as_text())
 		KEY_LEAN_RIGHT:
 			set_inputs("Lean_Right")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Lean Right: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "เอียงขวา: " + key_pressed.as_text())
 		KEY_ZOOM:
 			set_inputs("zoom")
 			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Zoom: " + key_pressed.as_text())
@@ -1381,22 +1381,22 @@ func _on_Key_List_item_activated(index):
 			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Weapon 2: " + key_pressed.as_text())
 		KEY_LAST_WEAPON:
 			set_inputs("switch_weapon")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Last Weapon: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "อาวุธล่าสุด: " + key_pressed.as_text())
 		KEY_CROUCH:
 			set_inputs("crouch")
 			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Crouch: " + key_pressed.as_text())
 		KEY_TERTIARY:
 			set_inputs("Tertiary_Weapon")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Tertiary Weapon: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "อาวุธที่3: " + key_pressed.as_text())
 		KEY_THROW_WEAPON:
 			set_inputs("drop")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Throw Weapon: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "โยนอาวุธ: " + key_pressed.as_text())
 		KEY_SUICIDE:
 			set_inputs("Suicide")
 			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Suicide: " + key_pressed.as_text())
 		KEY_STOCKS:
 			set_inputs("Stocks")
-			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "Stock Market: " + key_pressed.as_text())
+			$Settings / GridContainer / PanelContainer2 / VBoxContainer4 / Key_List.set_item_text(index, "ตลาดหุ้น: " + key_pressed.as_text())
 func set_inputs(action):
 	InputMap.action_erase_events(action)
 	InputMap.action_add_event(action, key_pressed)
@@ -1413,17 +1413,17 @@ func _on_Skip_Intro_toggled(value):
 
 func _on_Civslider_value_changed(value):
 	if value != 101:
-		$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Civcount_Label.text = "Civilians: " + str(value - 1) + "%"
+		$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Civcount_Label.text = "พลเรือน: " + str(value - 1) + "%"
 		Global.civilian_reduction = int(value)
 	else:
-		$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Civcount_Label.text = "Civilians: MAX"
+		$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Civcount_Label.text = "พลเรือน: MAX"
 		Global.civilian_reduction = int(value)
 	
 
 
 func _on_Drawslider_value_changed(value):
 	Global.draw_distance = value
-	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Draw_Label.text = "Draw Distance:\n" + str(value)
+	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / Draw_Label.text = "ระยะวาดภาพ:\n" + str(value)
 
 
 func _on_Reflections_toggled(value):
@@ -1437,7 +1437,7 @@ func _on_InvertY_toggled(value):
 func _reset_level_progression():
 
 	$ConfirmationDialog.popup(Rect2(get_global_mouse_position(), Vector2(256, 128)))
-	$ConfirmationDialog.dialog_text = "Reset level progression?"
+	$ConfirmationDialog.dialog_text = "รีเซ็ตความคืบหน้าด่านไหม?"
 	while confirmed == false:
 		yield(get_tree(), "idle_frame")
 	confirmed = false
@@ -1453,7 +1453,7 @@ func _reset_level_progression():
 
 func _on_ClearSave_pressed():
 	$ConfirmationDialog.popup(Rect2(get_global_mouse_position(), Vector2(256, 128)))
-	$ConfirmationDialog.dialog_text = "This will reset all of your progress. Are you sure?"
+	$ConfirmationDialog.dialog_text = "จะล้างความคืบหน้าทั้งหมด แน่ใจนะ?"
 	while confirmed == false:
 		yield(get_tree(), "idle_frame")
 	confirmed = false
@@ -1462,7 +1462,7 @@ func _on_ClearSave_pressed():
 		return
 	Global.money = 0
 	Global.play_time = 0
-	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "Active Play Time:\n0.0.0"
+	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "เวลาเล่นทั้งหมด:\n0.0.0"
 	Global.BONUS_UNLOCK = []
 	Global.implants.purchased_implants = []
 	$Character_Menu / Character_Container.clear_equips()
@@ -1536,7 +1536,7 @@ func _on_CameraSway_toggled(value):
 func _on_Gamma_value_changed(value):
 	Global.screenmat.set_shader_param("gamma", value)
 	Global.gamma = value
-	$Settings / GridContainer / PanelContainer / VBoxContainer / GAMMALABEL.text = "Gamma: " + str(value)
+	$Settings / GridContainer / PanelContainer / VBoxContainer / GAMMALABEL.text = "แกมม่า: " + str(value)
 
 
 func _on_Hiperf_toggled(value):
@@ -1553,4 +1553,4 @@ func _on_Timer_toggled(value):
 
 func _on_ResetTimer_pressed():
 	Global.play_time = 0
-	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "Active Play Time:\n0.0.0"
+	$Settings / GridContainer / PanelContainer6 / VBoxContainer3 / PlayTime.text = "เวลาเล่นทั้งหมด:\n0.0.0"

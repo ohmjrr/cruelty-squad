@@ -126,7 +126,7 @@ func player_use():
 			soul.damage(200, Vector3.ZERO, global_transform.origin, Vector3.ZERO)
 			if not poisonous:
 				Global.player.add_health(1)
-				Global.player.UI.notify("Flesh consumed.", Color(1, 0, 0))
+				Global.player.UI.notify("กินเนื้อแล้ว.", Color(1, 0, 0))
 			else:
 				Global.player.set_toxic()
 		else:

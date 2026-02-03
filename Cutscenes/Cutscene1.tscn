@@ -1890,11 +1890,7 @@ radius = 52.6381
 [node name="Spatial" type="Spatial"]
 script = ExtResource( 1 )
 next_scene = "res://Menu/Main_Menu.tscn"
-LINES = [ "", "", "", "Hey, it's me. Did I wake you up from your depression nap?", "Heard you've been in a rough spot since your discharge
-from the SEC Death Unit.", "There's not much a fucked up detached loser
-like you can do after all.", "I've got good news for you regarding your employment status.", "It's the sort of work that you enjoy but
-you'll have to adjust to a more corporate mindset.", "I've created you an account on MyWork so you can begin whenever you want.", "I assume you already own some suitable equipment.", "One last thing, you'll have to log
-at least fifteen minutes a day on the conditioning app.", "We need your mind primed and clear. No freakouts. Understand?", "That should be all. Good luck on your new career path.", "", "" ]
+LINES = [ "", "", "", "เฮ้ย กูเอง ปลุกแกจากการนอนซึมเศร้าเหรอ?", "ได้ยินว่าแกลำบากตั้งแต่ถูกปลดจาก\nหน่วยสังหารคุ้มครอง SEC.", "ไอ้พังตัวเองเหมือนแกทำอะไรได้อีก\nหลังจากนั้น.", "กูมีข่าวดีเกี่ยวกับสถานะการจ้างงานของแก.", "เป็นงานที่แกชอบแต่\nแกต้องปรับตัวให้คิดแบบองค์กรมากขึ้น.", "กูสร้างบัญชี MyWork ให้แกแล้ว เริ่มเมื่อไหร่ก็ได้.", "กูคิดว่าแกมีอุปกรณ์ที่เหมาะสมอยู่แล้ว.", "สุดท้าย แกต้องล็อกอินแอปปรับสภาพ\nอย่างน้อยสิบห้านาทีต่อวัน.", "เราต้องการให้สมองแกพร้อมและใส ไม่มีบ้าจี้ เข้าใจมั้ย?", "ก็แค่นั้น โชคดีกับเส้นทางอาชีพใหม่.", "", "" ]
 DURATION = [ 6, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 4.0 ]
 music = "res://Sfx/Music/intro.ogg"
 

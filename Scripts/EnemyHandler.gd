@@ -391,7 +391,7 @@ func damage(damage, collision_n, collision_p, shooter_pos):
 	
 		
 	if health > 199 and civilian:
-		glob.player.UI.message("Stop that!", true)
+		glob.player.UI.message("หยุดนะ!", true)
 	if armor > 0:
 		if nodamage != null:
 			nodamage.pitch_scale = 1.2 + rand_range(0, 0.2)
@@ -515,7 +515,7 @@ func die(damage, collision_n, collision_p):
 			pain_sfx[0].max_db = - 40
 		if permadeath:
 			glob.DEAD_CIVS.append(npc_name)
-			glob.player.UI.notify(npc_name + " is dead.", Color(1, 0, 0))
+			glob.player.UI.notify(npc_name + " ตายแล้ว.", Color(1, 0, 0))
 			glob.save_game()
 		
 		if glob.implants.arm_implant.cursed_torch:

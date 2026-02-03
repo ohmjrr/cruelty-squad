@@ -14,7 +14,7 @@ onready var SMG = $Level_Menu / VBoxContainer2 / Weapon_Select / SMG
 onready var SHOTGUN = $Level_Menu / VBoxContainer2 / Weapon_Select / SHOTGUN
 onready var ROCKET_LAUNCHER = $Level_Menu / VBoxContainer2 / Weapon_Select / ROCKET_LAUNCHER
 onready var WEAPON_BUTTONS = [PISTOL, SMG, SHOTGUN, ROCKET_LAUNCHER]
-onready var WEAPON_NAMES = ["PISTOL", "SMG", "SHOTGUN", "ROCKET LAUNCHER"]
+onready var WEAPON_NAMES = ["ปืนพก", "ปืนกลมือ", "ลูกซอง", "จรวด"]
 
 var current_menu = START_MENU
 export var in_game = false

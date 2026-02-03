@@ -10327,7 +10327,7 @@ material_override = ExtResource( 97 )
 material_override = ExtResource( 98 )
 
 [node name="Body" parent="Civilian2" index="1"]
-LINES = [ "Oh hey there.", "I can see that they got you too.", "Honestly it's not so bad. It's always good to have more options for nutrition, you end up saving a lot of money.", "Reversing the process? Sounds unlikely.", "Stay as long as you want. As far as I'm concerned we're family." ]
+LINES = [ "โอ้ว หวัดดีจ้า", "กูเห็นว่าแกก็โดนเหมือนกัน", "พูดตรงๆ มันก็ไม่ได้แย่นะ มีตัวเลือกอาหารเยอะขึ้นดี ประหยัดตังค์ได้เยอะเลย", "จะย้อนกลับไปเหมือนเดิม? ฟังดูเป็นไปไม่ได้", "อยู่นานเท่าไหร่ก็ได้ เท่าที่กูรู้ เราก็เหมือนครอบครัวกันแล้ว" ]
 
 [node name="Orbot" parent="." instance=ExtResource( 100 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -36.8118, 2.76973, 42.6857 )
@@ -10370,7 +10370,7 @@ material/0 = ExtResource( 97 )
 material_override = ExtResource( 106 )
 
 [node name="Body" parent="Civilian3" index="1"]
-LINES = [ "(This man is here to free me)", "(What a beautiful angelic being...)", "(I will now rest)" ]
+LINES = [ "(ผู้ชายคนนี้มาปลดปล่อยข้า)", "(ช่างเป็นสิ่งมีชีวิตที่งดงามเหมือนเทวดา...)", "(ตอนนี้ข้าจะพักผ่อนแล้ว)" ]
 
 [node name="Fleshman2" parent="." instance=ExtResource( 105 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.0187, 15.0004, 60.7166 )
@@ -10408,7 +10408,7 @@ material_override = ExtResource( 110 )
 material/0 = ExtResource( 110 )
 
 [node name="Body" parent="Civilian4" index="1"]
-LINES = [ "I used to work as a janitor here but then I found this place.", "Now I live here rent free and steal company secrets from the lab's trash.", "It wasn't always this nice here. I've put a lot of effort into renovation.", "Please don't tell anyone about me. I don't want to go back to mopping the office floors. That place is rank." ]
+LINES = [ "กูเคยทำงานเป็นภารโรงที่นี่ แล้วก็เจอที่นี่เข้า", "ตอนนี้กูอยู่ฟรีไม่ต้องจ่ายค่าเช่า แล้วก็ขโมยความลับบริษัทจากถังขยะแล็บ", "ที่นี่มันไม่ได้สวยแบบนี้ตลอด กูใส่ใจปรับปรุงมันเยอะมาก", "อย่าบอกใครเรื่องกูนะ ไม่อยากกลับไปถูพื้นออฟฟิศอีกแล้ว ที่นั่นมันเหม็นสัตว์" ]
 
 [node name="Spatial" parent="." instance=ExtResource( 79 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -34.3154, 10.325, 84.492 )
@@ -10440,7 +10440,7 @@ random_spawn = true
 material_override = ExtResource( 129 )
 
 [node name="Body" parent="Civilian5" index="1"]
-LINES = [ "Hello. Welcome to Pure Optics. I was informed you'd be coming here soon.", "You're here for the procedure right? Life getting to you? Seems like it judging by your face.", "Proceed down the hallway and use the soul emulator when you're ready. Everything's already been paid for so you don't have to worry.", "After you're done you'll notice that things that previously seemed impossible are now easy, new openings presenting themselves to you every single day.", "It's truly life-changing." ]
+LINES = [ "สวัสดีครับ ยินดีต้อนรับสู่ Pure Optics ผมได้รับแจ้งว่าคุณจะมาเร็วๆ นี้", "คุณมาทำหัตถการใช่ไหม? ชีวิตมันบีบคั้นเหรอ? ดูจากหน้าแกก็น่าจะใช่", "เดินไปตามทางเดินแล้วใช้เครื่องจำลองวิญญาณเมื่อพร้อม ทุกอย่างจ่ายหมดแล้วไม่ต้องห่วง", "หลังจากเสร็จแล้วแกจะสังเกตว่าสิ่งที่เคยเป็นไปไม่ได้ตอนนี้ง่ายมาก โอกาสใหม่ๆ จะมาหาแกทุกวัน", "มันเปลี่ยนชีวิตจริงๆ" ]
 
 [node name="Chaos_Objective" parent="." instance=ExtResource( 130 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 38.9064, 18.0004, -44.2627 )

@@ -22,15 +22,15 @@ func set_performance_info():
 		$Level_Info_Vbox / Level_Select.hide()
 		$Performance_Hbox / Performance_Scroll / RichTextLabel.text = ""
 		if Global.punishment_mode:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "PUNISHMENT RECEIVED.\n"
-		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Enemies killed: ", Global.enemy_count_total - Global.enemy_count, "/", Global.enemy_count_total, "\n")
-		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Civilians lost: ", Global.civ_count_total - Global.civ_count, "/", Global.civ_count_total, "\n")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "ได้รับการลงโทษแล้ว\n"
+		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("ศัตรูที่สังหาร: ", Global.enemy_count_total - Global.enemy_count, "/", Global.enemy_count_total, "\n")
+		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("พลเรือนที่สูญเสีย: ", Global.civ_count_total - Global.civ_count, "/", Global.civ_count_total, "\n")
 		if not Global.punishment_mode:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Mission reward: $", Global.LEVEL_REWARDS[Global.CURRENT_LEVEL], "\n")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("รางวัลภารกิจ: $", Global.LEVEL_REWARDS[Global.CURRENT_LEVEL], "\n")
 		else:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Mission reward: $", Global.LEVEL_REWARDS[Global.CURRENT_LEVEL] * 2, "\n")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("รางวัลภารกิจ: $", Global.LEVEL_REWARDS[Global.CURRENT_LEVEL] * 2, "\n")
 
-		$Performance_Hbox / VBoxContainer / Objective_Panel / Objectives.text = str("TIME", "\n", Global.level_time)
+		$Performance_Hbox / VBoxContainer / Objective_Panel / Objectives.text = str("เวลา", "\n", Global.level_time)
 		if Global.stock_mode and not Global.hope_discarded:
 			if Global.level_time_raw < Global.LEVEL_SRANK_S[Global.CURRENT_LEVEL]:
 				$Performance_Hbox / VBoxContainer / Portrait.texture = load("res://Textures/rank_letters/S.png")
@@ -72,16 +72,16 @@ func set_performance_info():
 		$Level_Info_Vbox / Level_Select.show()
 		$Performance_Hbox / Performance_Scroll / RichTextLabel.text = ""
 		if Global.consecutive_deaths == 4 and Global.husk_mode:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "Due to your wasting of company resources by hogging the genetic recombinator, you've been selected to participate in an experimental biological enhancement program. All your debt is cleared and from now on your body will regenerate by itself. Can't say I envy you though.\n\n"
-		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Enemies killed: ", Global.enemy_count_total - Global.enemy_count, "/", Global.enemy_count_total, "\n")
-		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Civilians lost: ", Global.civ_count_total - Global.civ_count, "/", Global.civ_count_total, "\n")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "เนื่องจากแกสิ้นเปลืองทรัพยากรบริษัทโดยการกอบโกยเครื่องรีคอมบิเนเตอร์พันธุกรรม แกถูกเลือกให้เข้าร่วมโครงการปรับปรุงชีวภาพทดลอง หนี้ทั้งหมดถูกล้างและต่อไปนี้ร่างกายแกจะฟื้นตัวเอง กูไม่อิจฉาแกหรอก\n\n"
+		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("ศัตรูที่ฆ่า: ", Global.enemy_count_total - Global.enemy_count, "/", Global.enemy_count_total, "\n")
+		$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("พลเรือนที่เสีย: ", Global.civ_count_total - Global.civ_count, "/", Global.civ_count_total, "\n")
 
 		if Global.husk_mode:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "Feelings: Dulled\n"
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Regeneration: $0\n")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += "ความรู้สึก: ทื่อ\n"
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("ฟื้นฟู: $0\n")
 		else:
-			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("Body reconstruction: -$", 500, "\n")
-		$Performance_Hbox / VBoxContainer / Objective_Panel / Objectives.text = str("FAILURE")
+			$Performance_Hbox / Performance_Scroll / RichTextLabel.text += str("สร้างร่างกายใหม่: -$", 500, "\n")
+		$Performance_Hbox / VBoxContainer / Objective_Panel / Objectives.text = str("ล้มเหลว")
 		$Performance_Hbox / VBoxContainer / Portrait.texture = load("res://Textures/abraxas/face6.png")
 func _physics_process(delta):
 	time += 1
@@ -93,14 +93,14 @@ func _physics_process(delta):
 			init_timer += 1
 		elif enemy_value < Global.enemy_count_total - Global.enemy_count:
 			enemy_value += 1
-			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Enemies_Label.text = "Enemies: " + str(enemy_value, "/", Global.enemy_count_total)
+			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Enemies_Label.text = "ศัตรู: " + str(enemy_value, "/", Global.enemy_count_total)
 			var color = float(enemy_value) / float(Global.enemy_count_total)
 			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Enemies_Label.add_color_override("font_color", Color(1 - color, color, 0).from_hsv(color * 0.25, 1, 1))
 		elif civ_value < Global.civ_count_total - Global.civ_count:
 			civ_value += 1
 			var color = float(civ_value) / float(Global.civ_count_total)
 			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Civilians_Label.add_color_override("font_color", Color(1 - color, color, 0).from_hsv(color * 0.25, 1, 1))
-			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Civilians_Label.text = "Civilians: " + str(civ_value, "/", Global.civ_count_total)
+			$Performance_Hbox / Performance_Scroll / Performance_Vbox / Civilians_Label.text = "พลเรือน: " + str(civ_value, "/", Global.civ_count_total)
 		else:
 			active = false
 			enemy_value = 0

@@ -6,7 +6,7 @@ extends StaticBody
 
 var type = 1
 var items = [preload("res://Entities/Physics_Objects/can1.tscn"), preload("res://Entities/Physics_Objects/chips1.tscn")]
-var item_names = ["Hungry Human Soda", "Super Crunchers"]
+var item_names = ["โซดามนุษย์หิว", "ซูเปอร์กรันเชอร์ส"]
 export var max_items = 10
 var item_count = 0
 var broken = false
@@ -26,19 +26,19 @@ func activation(violence):
 		new_item.global_transform.origin = $Position3D.global_transform.origin
 		new_item.damage(10, (global_transform.origin - $Position3D.global_transform.origin).normalized(), global_transform.origin, global_transform.origin)
 		if not violence:
-			Global.player.UI.notify("Purchased " + str(item_names[rand]) + " for " + "$10", Color(0, 1, 1))
+			Global.player.UI.notify("ซื้อ " + str(item_names[rand]) + " ในราคา " + "$10", Color(0, 1, 1))
 
 
 
 func player_use():
 	if Global.money < 10:
-		Global.player.UI.notify("You don't have enough money.", Color(1, 0, 0))
+		Global.player.UI.notify("แกไม่มีตังค์พอ.", Color(1, 0, 0))
 		return
 	if broken:
-		Global.player.UI.notify("It's broken.", Color(1, 0, 0))
+		Global.player.UI.notify("มันพัง.", Color(1, 0, 0))
 		return
 	if item_count >= max_items:
-		Global.player.UI.notify("It's empty.", Color(1, 0, 0))
+		Global.player.UI.notify("มันหมด.", Color(1, 0, 0))
 		return
 	if Global.money >= 10:
 		Global.money -= 10

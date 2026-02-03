@@ -105,7 +105,7 @@ margin_right = 384.0
 margin_bottom = 51.0
 size_flags_vertical = 1
 custom_fonts/font = SubResource( 2 )
-text = "The Authority on Life..."
+text = "ผู้มีอำนาจเหนือชีวิต..."
 align = 1
 
 [node name="Cameras" type="Node" parent="."]

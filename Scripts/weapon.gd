@@ -5,7 +5,7 @@ export var enemy_accuracy: float = 0.1
 
 
 enum {W_PISTOL, W_SMG, W_TRANQ, W_BLACKJACK, W_SHOTGUN, W_ROCKET_LAUNCHER, W_SNIPER, W_AR, W_SILENCED_SMG, W_NAMBU, W_GAS, W_MG3, W_AUTOSHOTGUN, W_MAUSER, W_BORE, W_MKR, W_RADIATOR, W_FLASHLIGHT, W_ZIPPY, W_AN94, W_VAG72, W_STEYR, W_CANCER, W_ROD, W_FLAMETHROWER, W_SKS, W_NAILER, W_SHOCK, W_LIGHT}
-const W_NAMES = ["10x25mm Subsonic", "9x19mm Corporate", "Animal Tranquilizer", null, "12 Gauge Flechette", "125mm HEAT", "20x124mm AP", "4.73×33mm Caseless", "9x19mm Goreforce", ".38 Suspicious", "50mm Flesh Eater Grenade", "7.62×51mm DU", "12 Gauge Super Auto", "7.62x51mm Executive", "Null", "4.5×26mm MCR", "null", "null", ".22 SR", "5.45×39mm Abyss", "7.62mm Rancid", "5.56×45mm Sabot", "DNA Scrambler", null, "Fuel", "7.62×39mm Financial", "1x45mm Depleted Uranium Nail", "12 Gauge Shockforce", "Thrngnrngnrxnon"]
+const W_NAMES = ["10x25mm เงียบ", "9x19mm องค์กร", "ยาสลบสัตว์", null, "12 Gauge ลูกดอก", "125mm HEAT", "20x124mm เจาะเกราะ", "4.73×33mm ไร้ปลอก", "9x19mm กอร์ฟอร์ซ", ".38 ต้องสงสัย", "50mm ลูกระเบิดกินเนื้อ", "7.62×51mm ยูเรเนียม", "12 Gauge ซูเปอร์ออโต้", "7.62x51mm ผู้บริหาร", "Null", "4.5×26mm MCR", "null", "null", ".22 SR", "5.45×39mm อะบิส", "7.62mm เน่า", "5.56×45mm ซาบอต", "DNA ปั่น", null, "เชื้อเพลิง", "7.62×39mm การเงิน", "1x45mm ตะปูยูเรเนียมหมด", "12 Gauge ช็อคฟอร์ซ", "Thrngnrngnrxnon"]
 enum {T_FLESH, T_ENVIRONMENT}
 var leaning_modifier = 0
 var fishing_hook: KinematicBody

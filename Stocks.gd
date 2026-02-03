@@ -131,7 +131,7 @@ func _physics_process(delta):
 		asset_value += stock.price * stock.owned
 		last_type = stock.asset_type
 		stock_index += 1
-	asset_label.text = str("Total holdings: $", stepify(asset_value, 0.01))
+	asset_label.text = str("สินทรัพย์รวม: $", stepify(asset_value, 0.01))
 	
 	
 	values = selected_stock.values
@@ -144,7 +144,7 @@ func _physics_process(delta):
 		description = "???"
 		s_name = "???"
 	stock_label.text = str(description, "\n(", selected_stock.owned, ")", s_name, "\nPrice: $", selected_stock.price, " ", stepify((selected_stock.price - selected_stock.starting_price) / abs(selected_stock.starting_price) * 100, 0.01), "%\nMKC: $", (selected_stock.price * selected_stock.issued_shares))
-	money_label.text = str("Cash: $", Global.money)
+	money_label.text = str("เงินสด: $", Global.money)
 	
 		
 	

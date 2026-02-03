@@ -54,9 +54,9 @@ func _physics_process(delta):
 
 			if Global.STOCKS.FISH_FOUND.find(current_fish.ticker) == - 1:
 				Global.STOCKS.FISH_FOUND.append(current_fish.ticker)
-			Global.player.UI.notify("Price: $" + str(current_fish.price), Color(1, 1, 0))
+			Global.player.UI.notify("ราคา: $" + str(current_fish.price), Color(1, 1, 0))
 			
-			Global.player.UI.notify(current_fish.s_name + " obtained!", Color(0.8, 0.9, 1))
+			Global.player.UI.notify(current_fish.s_name + " ได้มาแล้ว!", Color(0.8, 0.9, 1))
 			Global.STOCKS.save_stocks("user://stocks.save")
 			current_fish.owned += 1
 			Global.player.weapon.fishing_hook = null

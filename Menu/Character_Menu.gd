@@ -117,7 +117,7 @@ func _on_mouse_entered(i):
 			hover_info.get_node("Image").show()
 			hover_info.get_parent().raise()
 			hover_info.get_node("Name").text = "???"
-			hover_info.get_node("Hint").text = "Somewhere in this world something is waiting for you."
+			hover_info.get_node("Hint").text = "ที่ไหนสักแห่งในโลกนี้มีบางอย่างรอแกอยู่"
 			hover_info.get_node("Image").texture = load("res://Textures/Menu/mystery.png")
 			hover_info.get_parent().show()
 			return
@@ -128,23 +128,23 @@ func _on_mouse_entered(i):
 		var infotext = IMPLANTS[i].explanation
 		hover_info.get_node("Hint").text = ""
 		if IMPLANTS[i].head:
-			hover_info.get_node("Hint").text += "Slot: Head\n"
+			hover_info.get_node("Hint").text += "ช่อง: หัว\n"
 		if IMPLANTS[i].torso:
-			hover_info.get_node("Hint").text += "Slot: Chest\n"
+			hover_info.get_node("Hint").text += "ช่อง: อก\n"
 		if IMPLANTS[i].legs:
-			hover_info.get_node("Hint").text += "Slot: Legs\n"
+			hover_info.get_node("Hint").text += "ช่อง: ขา\n"
 		if IMPLANTS[i].arms:
-			hover_info.get_node("Hint").text += "Slot: Arms\n"
+			hover_info.get_node("Hint").text += "ช่อง: แขน\n"
 		if Global.implants.purchased_implants.find(IMPLANTS[i].i_name) == - 1:
 			hover_info.get_node("Hint").text += "$" + str(IMPLANTS[i].price) + "\n"
 		hover_info.get_node("Hint").show()
 		hover_info.get_node("Hint").text += infotext + "\n"
 		if IMPLANTS[i].armor != 1:
-			hover_info.get_node("Hint").text += "Armor: " + str(100 - IMPLANTS[i].armor * 100, "%") + "\n"
+			hover_info.get_node("Hint").text += "เกราะ: " + str(100 - IMPLANTS[i].armor * 100, "%") + "\n"
 		if IMPLANTS[i].speed_bonus != 0:
-			hover_info.get_node("Hint").text += "Speed: " + str(IMPLANTS[i].speed_bonus) + "\n"
+			hover_info.get_node("Hint").text += "ความเร็ว: " + str(IMPLANTS[i].speed_bonus) + "\n"
 		if IMPLANTS[i].jump_bonus != 0:
-			hover_info.get_node("Hint").text += "Jump bonus: " + str(IMPLANTS[i].jump_bonus) + "\n"
+			hover_info.get_node("Hint").text += "พลังกระโดด: " + str(IMPLANTS[i].jump_bonus) + "\n"
 		hover_info.get_parent().show()
 func _on_mouse_exited(i):
 	hover_info.get_node("Image").hide()
@@ -158,7 +158,7 @@ func _on_implant_pressed(i):
 			cancel = false
 			if Global.money >= IMPLANTS[i].price:
 				$ConfirmationDialog.popup(Rect2(get_global_mouse_position(), Vector2(256, 128)))
-				$ConfirmationDialog.dialog_text = "Do you want to purchase " + IMPLANTS[i].i_name + " for $" + str(IMPLANTS[i].price) + "?"
+				$ConfirmationDialog.dialog_text = "ต้องการซื้อ " + IMPLANTS[i].i_name + " ในราคา $" + str(IMPLANTS[i].price) + " หรือไม่?"
 				while confirmed == false and cancel == false:
 					yield(get_tree(), "idle_frame")
 				confirmed = false

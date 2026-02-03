@@ -141,7 +141,7 @@ func _enter_tree():
 
 	
 func cancer():
-	UI.notify("Your body feels weird.", Color(rand_range(0, 1), rand_range(0, 1), rand_range(0, 1)))
+	UI.notify("ร่างกายแกรู้สึกแปลกๆ.", Color(rand_range(0, 1), rand_range(0, 1), rand_range(0, 1)))
 	cancer_count += 1
 	if cancer_count == 10:
 		weapon.disabled = true
@@ -159,7 +159,7 @@ func _ready():
 		Global.implants.torso_implant = Global.implants.empty_implant
 		Global.implants.leg_implant = Global.implants.empty_implant
 		Global.implants.arm_implant = Global.implants.empty_implant
-		UI.notify("A malign influence strips you of power.", Color(0, 0, 1))
+		UI.notify("อิทธิพลชั่วร้ายพรากพลังจากแกไป.", Color(0, 0, 1))
 		Global.menu.get_node("Character_Menu/Character_Container").clear_equips()
 		Global.menu.get_node("Character_Menu/Character_Container").update_buttons()
 	if not GLOBAL.implants.head_implant.nightmare and not GLOBAL.implants.head_implant.nightvision:
@@ -1202,7 +1202,7 @@ func spawn_gib(gib, count, damage, collision_n, collision_p):
 		return new_gib
 func add_health(a_health):
 	if health > 0:
-		UI.notify(str(a_health) + " health absorbed", Color(1, 0.3, 0.3))
+		UI.notify(str(a_health) + " พลังชีวิตดูดซับแล้ว", Color(1, 0.3, 0.3))
 		$SFX / Health.play()
 		health += a_health
 		if health > 100:

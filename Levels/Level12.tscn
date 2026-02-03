@@ -8948,7 +8948,7 @@ material_override = ExtResource( 99 )
 material_override = ExtResource( 97 )
 
 [node name="Body" parent="Civilian2" index="1"]
-LINES = [ "What are you doing here you absolute moron?", "Can't you tell you shouldn't be here at all?", "You better not touch any of my crap or you'll sorely regret it you dumbass.", "There's some things people like you just shouldn't be allowed to mess with.", "Get out." ]
+LINES = [ "แกมาทำอะไรที่นี่ไอ้โง่เอ๊ย?", "ไม่เห็นเหรอว่าแกไม่ควรอยู่ที่นี่เลย?", "แกอย่าแตะของกูล่ะ ไม่งั้นแกจะเสียใจหนักมากไอ้หน้าโง่", "มีบางอย่างที่คนแบบแกไม่ควรได้แตะต้อง", "ออกไป" ]
 
 [node name="Orbot2" parent="." instance=ExtResource( 100 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -167.959, -16.2303, 18.387 )

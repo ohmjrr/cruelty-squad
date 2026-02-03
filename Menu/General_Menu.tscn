@@ -355,7 +355,7 @@ margin_right = 426.0
 margin_bottom = 60.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "START GAME"
+text = "เริ่มเกม"
 
 [node name="Settings_Button" type="Button" parent="Menu/VBoxContainer/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 60.0
@@ -363,7 +363,7 @@ margin_right = 426.0
 margin_bottom = 120.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "SETTINGS"
+text = "ตั้งค่า"
 
 [node name="Quit_Button" type="Button" parent="Menu/VBoxContainer/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 120.0
@@ -371,7 +371,7 @@ margin_right = 426.0
 margin_bottom = 180.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "QUIT GAME"
+text = "ออกจากเกม"
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/VBoxContainer/HBoxContainer"]
 margin_left = 852.0
@@ -430,7 +430,7 @@ margin_right = 609.0
 margin_bottom = 40.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "RESUME GAME"
+text = "กลับสู่เกม"
 
 [node name="Settings_Button" type="Button" parent="In_Game_Menu/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 44.0
@@ -438,7 +438,7 @@ margin_right = 609.0
 margin_bottom = 84.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "SETTINGS"
+text = "ตั้งค่า"
 
 [node name="Level_Select" type="Button" parent="In_Game_Menu/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 88.0
@@ -446,7 +446,7 @@ margin_right = 609.0
 margin_bottom = 128.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "LEVEL SELECT"
+text = "เลือกด่าน"
 
 [node name="Quit_To_Menu" type="Button" parent="In_Game_Menu/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 132.0
@@ -454,7 +454,7 @@ margin_right = 609.0
 margin_bottom = 172.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "EXIT TO MAIN MENU"
+text = "กลับสู่เมนูหลัก"
 
 [node name="Quit_Button" type="Button" parent="In_Game_Menu/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 176.0
@@ -462,7 +462,7 @@ margin_right = 609.0
 margin_bottom = 219.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "QUIT GAME"
+text = "ออกจากเกม"
 
 [node name="ColorRect3" type="ColorRect" parent="In_Game_Menu/HBoxContainer/VBoxContainer"]
 margin_top = 438.0
@@ -530,7 +530,7 @@ margin_right = 609.0
 margin_bottom = 107.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "START GAME"
+text = "เริ่มเกม"
 
 [node name="Quit_Button" type="Button" parent="Settings/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 111.0
@@ -538,7 +538,7 @@ margin_right = 609.0
 margin_bottom = 219.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "QUIT GAME"
+text = "ออกเกม"
 
 [node name="ColorRect3" type="ColorRect" parent="Settings/HBoxContainer/VBoxContainer"]
 margin_top = 438.0
@@ -576,7 +576,7 @@ __meta__ = {
 [node name="Sensitivity_Text" type="Label" parent="Settings/HBoxContainer/Tabs/Control"]
 margin_right = 595.0
 margin_bottom = 26.0
-text = "Mouse Sensitivity"
+text = "ความไวเม้าส์"
 
 [node name="HSlider" type="HSlider" parent="Settings/HBoxContainer/Tabs/Control"]
 margin_top = 30.0
@@ -599,7 +599,7 @@ __meta__ = {
 margin_top = 80.0
 margin_right = 595.0
 margin_bottom = 106.0
-text = "Field of View"
+text = "มุมมอง"
 
 [node name="FOV_Slider" type="HSlider" parent="Settings/HBoxContainer/Tabs/Control"]
 margin_top = 110.0
@@ -635,7 +635,7 @@ __meta__ = {
 [node name="Master_Volume_Text" type="Label" parent="Settings/HBoxContainer/Tabs/Volume"]
 margin_right = 601.0
 margin_bottom = 14.0
-text = "Master"
+text = "เสียงหลัก"
 
 [node name="Master_Volume" type="HSlider" parent="Settings/HBoxContainer/Tabs/Volume"]
 margin_top = 18.0
@@ -650,7 +650,7 @@ tick_count = 200
 margin_top = 38.0
 margin_right = 601.0
 margin_bottom = 52.0
-text = "Music"
+text = "เสียงเพลง"
 
 [node name="Music_Volume" type="HSlider" parent="Settings/HBoxContainer/Tabs/Volume"]
 margin_top = 56.0
@@ -714,7 +714,7 @@ alignment = 1
 margin_left = 119.0
 margin_right = 238.0
 margin_bottom = 26.0
-text = "Enemies:"
+text = "ศัตรู:"
 
 [node name="Enemies_Value" type="Label" parent="Level_End_Menu/HBoxContainer/VBoxContainer/Level_End_Info/Enemy_HBOX"]
 margin_left = 242.0
@@ -733,7 +733,7 @@ alignment = 1
 margin_left = 97.0
 margin_right = 261.0
 margin_bottom = 26.0
-text = "War Crimes:"
+text = "อาชญากรรมสงคราม:"
 
 [node name="Civ_Value" type="Label" parent="Level_End_Menu/HBoxContainer/VBoxContainer/Level_End_Info/Civ_HBOX2"]
 margin_left = 265.0
@@ -756,7 +756,7 @@ margin_right = 406.0
 margin_bottom = 107.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "NEXT MISSION"
+text = "ภารกิจถัดไป"
 
 [node name="Level_Select" type="Button" parent="Level_End_Menu/HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 111.0
@@ -764,7 +764,7 @@ margin_right = 406.0
 margin_bottom = 219.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "LEVEL SELECT"
+text = "เลือกด่าน"
 
 [node name="ColorRect3" type="ColorRect" parent="Level_End_Menu/HBoxContainer/VBoxContainer"]
 margin_top = 438.0
@@ -828,7 +828,7 @@ custom_constants/separation = 0
 margin_right = 526.0
 margin_bottom = 64.0
 custom_fonts/font = ExtResource( 3 )
-text = "FUCK OFF"
+text = "ไสไป"
 autowrap = true
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Level_Menu/VBoxContainer2/HBoxContainer/VBoxContainer"]
@@ -857,7 +857,7 @@ margin_bottom = 627.0
 [node name="Record_Label" type="Label" parent="Level_Menu/VBoxContainer2/HBoxContainer/VBoxContainer/Record_Container"]
 margin_right = 104.0
 margin_bottom = 26.0
-text = "Record:"
+text = "สถิติ:"
 
 [node name="Record_Value" type="Label" parent="Level_Menu/VBoxContainer2/HBoxContainer/VBoxContainer/Record_Container"]
 margin_left = 108.0
@@ -899,8 +899,8 @@ margin_right = 165.0
 margin_bottom = 627.0
 size_flags_vertical = 0
 custom_colors/font_color = Color( 0.0313726, 1, 0, 1 )
-text = "OBJECTIVE 1
-OBJECTIVE 2"
+text = "เป้าหมาย 1
+เป้าหมาย 2"
 
 [node name="Current_Weapons" type="HBoxContainer" parent="Level_Menu/VBoxContainer2"]
 margin_top = 631.0
@@ -914,7 +914,7 @@ margin_right = 403.0
 margin_bottom = 26.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "WEAPON1"
+text = "อาวุธ1"
 
 [node name="WEAPON2" type="Button" parent="Level_Menu/VBoxContainer2/Current_Weapons"]
 margin_left = 407.0
@@ -922,7 +922,7 @@ margin_right = 810.0
 margin_bottom = 26.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "WEAPON2"
+text = "อาวุธ2"
 
 [node name="BEGIN" type="Button" parent="Level_Menu/VBoxContainer2/Current_Weapons"]
 margin_left = 814.0
@@ -930,7 +930,7 @@ margin_right = 1218.0
 margin_bottom = 26.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "BEGIN"
+text = "เริ่ม"
 
 [node name="Weapon_Select" type="GridContainer" parent="Level_Menu/VBoxContainer2"]
 visible = false
@@ -946,7 +946,7 @@ margin_right = 301.0
 margin_bottom = 194.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "BACK"
+text = "กลับ"
 
 [node name="PISTOL" type="Button" parent="Level_Menu/VBoxContainer2/Weapon_Select"]
 margin_left = 305.0
@@ -954,7 +954,7 @@ margin_right = 606.0
 margin_bottom = 194.0
 size_flags_horizontal = 3
 theme = ExtResource( 12 )
-text = "PISTOL"
+text = "ปืน"
 
 [node name="SMG" type="Button" parent="Level_Menu/VBoxContainer2/Weapon_Select"]
 margin_left = 610.0

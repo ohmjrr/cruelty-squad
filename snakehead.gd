@@ -18,8 +18,8 @@ var look_towards = Vector3.ZERO
 var t = 0
 var disabled = false
 var gib = preload("res://Entities/Physics_Objects/Snake_Gib.tscn")
-export var line = "Triagon 01 is gone. (Golem Exosystem Received)"
-export var line2 = "I bestow upon you power."
+export var line = "Triagon 01 หายไปแล้ว. (รับระบบ Golem Exosystem แล้ว)"
+export var line2 = "กูประทานพลังให้แก."
 
 
 func _ready():

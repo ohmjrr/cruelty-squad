@@ -320,10 +320,10 @@ func set_soul():
 	border.texture = BORDERS[1]
 	if is_instance_valid(player) and menu.in_game:
 		if hope_discarded:
-			player.UI.notify("Hope manifested", Color(1, 1, 1))
+			player.UI.notify("ความหวังปรากฏขึ้น", Color(1, 1, 1))
 		if husk_mode:
-			player.UI.notify("Bodily autonomy regained", Color(1, 0.5, 0.5))
-		player.UI.notify("Divine link established", Color(0.9, 0.9, 1))
+			player.UI.notify("ความเป็นอิสระของร่างกายคืนมา", Color(1, 0.5, 0.5))
+		player.UI.notify("สายสัมพันธ์เทพเชื่อมแล้ว", Color(0.9, 0.9, 1))
 	soul_intact = true
 	consecutive_deaths = 0
 	hope_discarded = false
@@ -335,10 +335,10 @@ func set_hope():
 	hell_discovered = true
 	if is_instance_valid(player) and menu.in_game:
 		if husk_mode:
-			player.UI.notify("Bodily autonomy regained", Color(1, 0.5, 0.5))
+			player.UI.notify("ความเป็นอิสระของร่างกายคืนมา", Color(1, 0.5, 0.5))
 		if soul_intact:
-			player.UI.notify("Divine link severed", Color(0, 0, 1))
-		player.UI.notify("Hope eradicated", Color(0, 0, 0))
+			player.UI.notify("สายสัมพันธ์เทพขาดแล้ว", Color(0, 0, 1))
+		player.UI.notify("ความหวังถูกกำจัด", Color(0, 0, 0))
 		hope_discarded = true
 		soul_intact = false
 		husk_mode = false
@@ -472,11 +472,11 @@ func add_objective() -> void :
 func remove_objective() -> void :
 	objectives -= 1
 	print(objectives)
-	UI.notify("Target Eliminated", Color(1, 0, 0))
+	UI.notify("เป้าหมายถูกกำจัด", Color(1, 0, 0))
 	$Target_Eliminated.play()
 	if objectives == 0:
 		objective_complete = true
-		UI.notify("All Objectives Complete. Locate the exit.", Color(1, 0, 1))
+		UI.notify("ภารกิจสำเร็จ. หาทางออก.", Color(1, 0, 1))
 
 func level_finished() -> void :
 	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Music"), music_volume)
@@ -608,7 +608,7 @@ func level_finished() -> void :
 		$Menu / Level_End_Grid.active = true
 		$Menu.level_end()
 		$Menu / Level_End_Grid.rect_size.x = 720
-		$Menu / Level_End_Grid / Performance_Hbox / Performance_Scroll / Performance_Vbox / Time_Label.text = "Time:" + level_time
+		$Menu / Level_End_Grid / Performance_Hbox / Performance_Scroll / Performance_Vbox / Time_Label.text = "เวลา:" + level_time
 		$Menu.show()
 		if Global.CURRENT_LEVEL < Global.L_PUNISHMENT and Global.CURRENT_LEVEL != L_HQ:
 			Global.CURRENT_LEVEL += 1

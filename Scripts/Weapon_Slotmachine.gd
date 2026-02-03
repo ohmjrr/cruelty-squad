@@ -36,7 +36,7 @@ func _physics_process(delta):
 			spawn_item()
 			wep = 0
 		else:
-			Global.player.UI.notify("You lose", Color(1, 0, 0))
+			Global.player.UI.notify("แกแพ้", Color(1, 0, 0))
 
 
 

@@ -9696,7 +9696,7 @@ material_override = ExtResource( 84 )
 material/0 = ExtResource( 84 )
 
 [node name="Body" parent="Civilian3" index="1"]
-LINES = [ "One more year and I'm going to have enough money to retire for good.", "This resort business just isn't for me. Complaining customers and know it alls who think they know how to run this place better than me.", "I will NOT add a water slide. Where would it even go?", "Sigh... I should have a thicker skin by now.", "Thanks for listening, I feel so much better now. I never get to say these things to anyone." ]
+LINES = [ "อีกปีหนึ่งกูจะมีเงินพอเกษียณถาวรแล้ว", "ธุรกิจรีสอร์ทนี้มันไม่เหมาะกับกู ลูกค้าบ่นและพวกรู้ดีที่คิดว่าตัวเองบริหารได้ดีกว่ากู", "กูจะไม่เพิ่มสไลด์น้ำ! มันจะอยู่ตรงไหนวะ?", "ถอนใจ... กูควรหนังหนักกว่านี้แล้ว", "ขอบคุณที่รับฟังนะ กูรู้สึกดีขึ้นมากเลย กูไม่เคยได้พูดสิ่งเหล่านี้กับใคร" ]
 
 [node name="Civilian4" parent="." instance=ExtResource( 56 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.627761, 26.5004, 55.2233 )
@@ -9705,7 +9705,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.627761, 26.5004, 55.2233 )
 material_override = ExtResource( 78 )
 
 [node name="Body" parent="Civilian4" index="1"]
-LINES = [ "Please do something about that thing in the bathroom!", "I don't know what the fuck that freak is. I know it's the swamp suite but this is a little too swampy even for me.", "I called the hotel management hours ago and they still haven't showed up. What a fucking joke.", "My security guys are complete cowards and refuse to go in there. Who recruited these absolute morons?", "If you deal with this I could even pay you. How's one million dollars sound?" ]
+LINES = [ "ช่วยจัดการสิ่งนั้นในห้องน้ำที!", "กูไม่รู้ว่าไอ้ประหลาดนั่นคืออะไร กูรู้ว่ามันเป็นห้องหนองน้ำแต่มันหนองน้ำเกินไปแม้สำหรับกู", "กูโทรหาฝ่ายบริหารโรงแรมไปหลายชั่วโมงแล้วยังไม่มา เฮ้ยมันไร้สาระวะ", "บอดี้การ์ดกูกลัวหมดเลยไม่ยอมเข้าไป ใครไปรับสมัครพวกโง่ๆ เหล่านี้วะ?", "ถ้าแกจัดการเรื่องนี้กูจ่ายแกได้นะ หนึ่งล้านดอลลาร์เป็นไง?" ]
 
 [node name="Civilian5" parent="." instance=ExtResource( 56 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.5404, 26.5004, 24.3416 )
@@ -9717,14 +9717,14 @@ material_override = ExtResource( 87 )
 material_override = ExtResource( 86 )
 
 [node name="Body" parent="Civilian5" index="1"]
-LINES = [ "Can't even take a piss without some freak like you bothering me.", "What is it? Be quick about it.", "This trip is an absolute disaster. All of our deals have gone to shit. I'm readying myself to declare bankruptcy.", "The other guys seem to be more interested in \"relaxing\". I'm the only serious business minded individual here.", "You're also one? That's good." ]
+LINES = [ "จะเยี่ยวด้วยซ้ำก็ไม่ได้เลยโดนคนแปลกๆ แบบแกมากวน", "มีอะไร? พูดเร็วๆ หน่อย", "ทริปนี้พังสิ้นดีสุดๆ ดีลทั้งหมดพัง กูเตรียมตัวประกาศล้มละลายแล้ว", "พวกคนอื่นดูสนใจ 'พักผ่อน' มากกว่า กูเป็นคนเดียวที่มีใจธุรกิจจริงๆ ที่นี่", "แกก็เป็นเหมือนกันเหรอ? ดีจัง" ]
 
 [node name="Civilian" parent="." instance=ExtResource( 82 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 36.1443, 27.7504, 60.1815 )
 objective = true
 
 [node name="Body" parent="Civilian" index="0"]
-LINES = [ "Whoa bro... Where'd you come from?", "I'm just chilling. I love the serene view and the nice warm bath. Some of the guys want to do business but I'm in no hurry.", "Honestly I knew before coming here that there would be no deal. I just needed an excuse to relax.", "I'm definitely coming back here some time. If you happen to meet the owner of this place please tell him how much I appreciate his work." ]
+LINES = [ "โว้ว บรอ... แกมาจากไหน?", "กูแค่ชิลล์ กูชอบวิวสงบและอ่างอุ่นๆ บางคนอยากทำธุรกิจแต่กูไม่รีบ", "จริงๆ กูรู้ก่อนมาว่าจะไม่มีดีล กูแค่ต้องการข้ออ้างเพื่อพักผ่อน", "กูจะกลับมาที่นี่อีกแน่นอน ถ้าแกเจอเจ้าของที่นี่ช่วยบอกเขาว่ากูชื่นชมงานเขาแค่ไหน" ]
 
 [node name="Head_Mesh" parent="Civilian/Nemesis/Armature/Skeleton" index="0"]
 material_override = ExtResource( 88 )
@@ -9781,7 +9781,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.38327, 33.4514, 38.9783 )
 hell_objective = true
 
 [node name="Body" parent="Civilian2" index="0"]
-LINES = [ "You thought that dumbass old man was the one running this magnificent hotel business?", "Something this important can't be left to someone like that.", "I am a dark CEO. It is a hereditary title. A sort of corporate nobility. We're not into publicity, just pure business.", "Weak blood doesn't have what it takes, but everyone needs to be given an opportunity these days. It's fucking messed up...", "You don't get a brain like mine without careful breeding.", "I'm thinking..." ]
+LINES = [ "แกคิดว่าไอ้แก่โง่นั่นเป็นคนบริหารโรงแรมสุดหรูนี้เหรอ?", "อะไรสำคัญขนาดนี้ไม่สามารถปล่อยให้คนแบบนั้นทำได้", "กูเป็น dark CEO เป็นตำแหน่งสืบทอด เป็นขุนนางบริษัทแบบหนึ่ง เราไม่ชอบความดัง แค่ธุรกิจแท้ๆ", "เลือดอ่อนแอไม่มีของเพียงพอ แต่ทุกคนต้องมีโอกาสสมัยนี้ เหี้ยแม่งเลย...", "แกไม่มีสมองแบบกูโดยไม่ผ่านการผสมพันธุ์อย่างพิถีพิถัน", "กูกำลังคิด..." ]
 
 [node name="Torso_Mesh" parent="Civilian2/Nemesis/Armature/Skeleton" index="1"]
 material_override = ExtResource( 84 )

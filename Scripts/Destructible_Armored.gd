@@ -38,6 +38,6 @@ func piercing_damage(damage, collision_n, collision_p, shooter_pos):
 		new_particle.emitting = true
 		queue_free()
 func player_use():
-	Global.player.UI.notify("Small cracks permeate the surface", Color(1, 1, 1))
+	Global.player.UI.notify("รอยร้าวเล็กๆปรากฏบนพื้นผิว", Color(1, 1, 1))
 func get_type():
 	return type;

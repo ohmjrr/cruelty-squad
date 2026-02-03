@@ -259,7 +259,7 @@ size = Vector2( 11.916, 7.41 )
 [node name="Spatial" type="Spatial"]
 script = ExtResource( 1 )
 next_scene = "res://Menu/Main_Menu.tscn"
-LINES = [ "", "I weep.", "You are a rotten husk.", "You overflow with boundless power.", "You have the soul of an emperor.", "Sacrificial hero. Blessed by primordial luck.", "Your friends are in hell yet you smile.", "Only good things will come to someone like you.", "Set goals. Have a ten year plan. Invest. Wake up early. CEO mindset.", "Good luck.", "", "" ]
+LINES = [ "", "กูร้องไห้.", "แกเป็นเปลือกเน่า.", "แกล้นด้วยพลังไร้ขีดจำกัด.", "แกมีวิญญาณของจักรพรรดิ.", "วีรบูรพ์สังเวย ได้รับพรจากโชคดีดึกดำบรรพ์.", "เพื่อนๆของแกอยู่ในนรกแต่แกยิ้ม.", "สิ่งดีๆเท่านั้นจะมาหาคนแบบแก.", "ตั้งเป้าหมาย มีแผนสิบปี ลงทุน ตื่นเช้า คิดแบบ CEO.", "โชคดี.", "", "" ]
 DURATION = [ 13, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 20.0, 100.0 ]
 music = "NO"
 line_skip = false

@@ -662,7 +662,7 @@ visible = false
 margin_right = 90.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.172549, 1, 0, 1 )
-text = "Ammo: "
+text = "กระสุน: "
 uppercase = true
 
 [node name="Mag_Ammo" type="Label" parent="Ammovbox/HBoxContainer"]
@@ -722,7 +722,7 @@ margin_left = 163.0
 margin_right = 283.0
 margin_bottom = 26.0
 custom_colors/font_color = Color( 0.172549, 1, 0, 1 )
-text = "Health: "
+text = "พลังชีวิต: "
 uppercase = true
 
 [node name="Health" type="Label" parent="Ammovbox/HBoxContainer"]
@@ -785,7 +785,7 @@ margin_top = 255.0
 margin_right = 1023.0
 margin_bottom = 281.0
 custom_colors/font_color = Color( 0.00784314, 1, 0, 1 )
-text = "YOU DIED"
+text = "แกตายแล้ว"
 valign = 1
 
 [node name="Crosshair" parent="." instance=ExtResource( 6 )]
@@ -817,7 +817,7 @@ margin_right = 1023.0
 margin_bottom = 111.0
 custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 1, 0, 0, 1 )
-text = "DIST 129"
+text = "ระยะ 129"
 align = 1
 
 [node name="CenterContainer2" type="MarginContainer" parent="."]
@@ -853,7 +853,7 @@ margin_bottom = 42.0
 size_flags_horizontal = 3
 custom_fonts/font = SubResource( 5 )
 custom_colors/font_color = Color( 0.101961, 1, 0, 1 )
-text = "TARGET ELIMINATED"
+text = "เป้าหมายถูกกำจัด"
 align = 2
 
 [node name="UI_HBOX" type="HBoxContainer" parent="."]
@@ -889,7 +889,7 @@ margin_right = 540.0
 margin_bottom = 83.0
 custom_fonts/font = SubResource( 7 )
 custom_colors/font_color = Color( 0.658824, 0.988235, 0, 1 )
-text = "TOXIC CRISIS"
+text = "วิกฤติพิษ"
 
 [node name="Toxic2" type="Label" parent="UI_HBOX/Toxic"]
 margin_top = 83.0
@@ -897,7 +897,7 @@ margin_right = 540.0
 margin_bottom = 123.0
 custom_fonts/font = SubResource( 8 )
 custom_colors/font_color = Color( 0.682353, 0.360784, 0, 1 )
-text = "FLUSHING BIOLOGICAL SYSTEMS"
+text = "กำลังล้างระบบชีวภาพ"
 
 [node name="UI_COMMS_CONTAINER" type="VBoxContainer" parent="."]
 modulate = Color( 1, 1, 1, 0 )

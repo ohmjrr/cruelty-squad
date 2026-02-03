@@ -79,7 +79,7 @@ func _enter_tree():
 	var new_stock = stock.new()
 	new_stock.ticker = "CRUS"
 	new_stock.s_name = "Cruelty Squad"
-	new_stock.description = "Steady bluechip company in the security business."
+	new_stock.description = "บริษัทบลูชิปมั่นคงในธุรกิจรักษาความปลอดภัย."
 	new_stock.price = 1237
 	new_stock.issued_shares = 2912812
 	new_stock.max_price = 1999
@@ -92,7 +92,7 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "GDHD"
-	new_stock.description = "Once a great company, has recently lost influence."
+	new_stock.description = "เคยเป็นบริษัทยิ่งใหญ่ แต่สูญเสียอำนาจไปเมื่อเร็วๆนี้."
 	new_stock.s_name = "Godhead Heavy Industries"
 	new_stock.price = 732
 	new_stock.min_price = 12
@@ -106,7 +106,7 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "GTC "
-	new_stock.description = "Hot new startup looking to revolutionize computing and food. Buy."
+	new_stock.description = "สตาร์ทอัพมาแรงที่จะปฏิวัติคอมพิวเตอร์และอาหาร ซื้อเลย."
 	new_stock.s_name = "G-Tech"
 	new_stock.max_price = 600
 	new_stock.price = 89
@@ -119,7 +119,7 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PIHO"
-	new_stock.description = "The greatest fast food chain ever to exist with history spanning centuries and tens of thousands of locations open worldwide. The peeperoni pizza is a delight for the senses."
+	new_stock.description = "เชนอาหารจานด่วนที่ดีที่สุดเท่าที่เคยมี ประวัติยาวนับศตวรรษและมีสาขาหลายหมื่นทั่วโลก พิซซ่าเปปเปอโรนีทำให้ประสาทสัมผัสสุดๆ."
 	new_stock.s_name = "Pizza House"
 	new_stock.max_price = 510
 	new_stock.price = 123
@@ -131,7 +131,7 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "AOI "
-	new_stock.description = "22nd century space-faring solutions."
+	new_stock.description = "โซลูชั่นอวกาศศตวรรษที่ 22."
 	new_stock.s_name = "Advanced Orbital Instruments"
 	new_stock.max_price = 774
 	new_stock.price = 530
@@ -146,7 +146,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "GAGA"
 	new_stock.s_name = "GamesGames"
-	new_stock.description = "Failing game store chain."
+	new_stock.description = "เชนร้านเกมที่กำลังล้มละลาย."
 	new_stock.max_price = 700
 	new_stock.price = 165
 	new_stock.extreme_action = 6
@@ -162,7 +162,7 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PWR "
-	new_stock.description = "Originally became known for heavily arming its fleet to counter pirates, but acquired a monopoly status when it was discovered that you can also sink your competition."
+	new_stock.description = "เดิมโด่งดังเพราะติดอาวุธหนักให้กองเรือเพื่อต่อต้านโจรสลัด แต่ได้สถานะผูกขาดเมื่อพบว่าจมคู่แข่งก็ได้เหมือนกัน."
 	new_stock.s_name = "Power Monger Shipping Company"
 	new_stock.max_price = 1500
 	new_stock.price = 205
@@ -176,7 +176,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "VEME"
 	new_stock.s_name = "Veggo's Meatoids"
-	new_stock.description = "Mysterious newcomer in the vegan meat industry. Competitor of G-TECH's goofood business."
+	new_stock.description = "ผู้มาใหม่ลึกลับในอุตสาหกรรมเนื้อเทียมเจียน คู่แข่งของธุรกิจ goofood ของ G-TECH."
 	new_stock.max_price = 1521
 	new_stock.price = 20
 	new_stock.volatility = 15
@@ -191,7 +191,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "FBCA"
 	new_stock.s_name = "Fatberg Casino"
-	new_stock.description = "Sir Fatberg's famous casino in the western swamplands."
+	new_stock.description = "คาสิโนอันโด่งดังของท่าน Sir Fatberg ในหนองบึงทางตะวันตก."
 	new_stock.max_price = 643
 	new_stock.price = 405
 	new_stock.volatility = 7
@@ -203,7 +203,7 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "SCRD"
-	new_stock.description = "Not much is known about this security company, the workers seem a bit off and don't seem to be able to talk. Rabid fanbase."
+	new_stock.description = "ไม่ค่อยมีใครรู้เรื่องบริษัทรักษาความปลอดภัยนี้ พนักงานดูแปลกๆและพูดไม่ได้ มีแฟนคลั่ง."
 	new_stock.s_name = "Security Redefined"
 	new_stock.max_price = 320
 	new_stock.price = 153
@@ -218,7 +218,7 @@ func _enter_tree():
 	new_stock.s_name = "Pure Optics"
 	new_stock.max_price = 1200
 	new_stock.price = 630
-	new_stock.description = "Military grade optics, among other things."
+	new_stock.description = "เลนส์ระดับกองทัพ กับอย่างอื่นๆ."
 	new_stock.volatility = 4
 	new_stock.trend = 0
 	new_stock.starting_price = new_stock.price
@@ -228,7 +228,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "CSFT"
 	new_stock.s_name = "Consumer Softproducts"
-	new_stock.description = "Developer of the smash hit video game Gorbino's Quest."
+	new_stock.description = "ผู้พัฒนาเกมฮิตใหญ่ Gorbino's Quest."
 	new_stock.max_price = 1200
 	new_stock.price = 413
 	new_stock.volatility = 3
@@ -239,8 +239,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "BRN "
-	new_stock.s_name = "Brain"
-	new_stock.description = "Raw material used by the AI industry."
+	new_stock.s_name = "สมอง"
+	new_stock.description = "วัตถุดิบที่อุตสาหกรรม AI ใช้."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 99
 	new_stock.min_price = 2
@@ -253,8 +253,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "AUGB"
-	new_stock.s_name = "Augmented Brain"
-	new_stock.description = "A low quality augmented brain. High processing speed at the cost of extreme neuroticism."
+	new_stock.s_name = "สมองอัพเกรด"
+	new_stock.description = "สมองอัพเกรดคุณภาพต่ำ ประมวลผลเร็วแลกกับความโรคจิตสุดขีด."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 200
 	new_stock.min_price = 120
@@ -267,8 +267,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PSYB"
-	new_stock.s_name = "Psycho Brain"
-	new_stock.description = "The brain of a psychogenic controller, or psyker. Capable of sentience."
+	new_stock.s_name = "สมองจิต"
+	new_stock.description = "สมองของตัวควบคุมจิตกำเนิดหรือไซเกอร์ มีความสามารถรับรู้."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 3000
 	new_stock.min_price = 1500
@@ -281,8 +281,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "WRMB"
-	new_stock.s_name = "Worm Brain"
-	new_stock.description = "Crawling with lab grown parasites."
+	new_stock.s_name = "สมองหนอน"
+	new_stock.description = "เต็มไปด้วยปรสิตจากแล็บ."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 3000
 	new_stock.min_price = 1500
@@ -295,8 +295,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "LIVR"
-	new_stock.s_name = "Liver"
-	new_stock.description = "Most commonly needed spare part for executives."
+	new_stock.s_name = "ตับ"
+	new_stock.description = "อะไหล่ทดแทนที่ผู้บริหารต้องการบ่อยที่สุด."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 52
 	new_stock.min_price = 2
@@ -309,8 +309,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "TLVR"
-	new_stock.s_name = "Tactical Liver"
-	new_stock.description = "It looks cool."
+	new_stock.s_name = "ตับแท็กติกอล"
+	new_stock.description = "ดูเท่."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 200
 	new_stock.min_price = 100
@@ -323,8 +323,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "KDNY"
-	new_stock.s_name = "Kidney"
-	new_stock.description = "Plentiful and easily replaced, more so than others."
+	new_stock.s_name = "ไต"
+	new_stock.description = "เยอะแยะและเปลี่ยนง่ายกว่าอย่างอื่น."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 20
 	new_stock.min_price = 2
@@ -337,8 +337,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "HERT"
-	new_stock.s_name = "Heart"
-	new_stock.description = "A disgustingly persistent little biological pump."
+	new_stock.s_name = "หัวใจ"
+	new_stock.description = "ปั๊มพ์ชีวภาพตัวเล็กๆที่ดื้อดึงน่าขยะแขง."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 300
 	new_stock.min_price = 150
@@ -351,8 +351,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BHRT"
-	new_stock.s_name = "Black Heart"
-	new_stock.description = "A heart running at optimal capacity."
+	new_stock.s_name = "หัวใจดำ"
+	new_stock.description = "หัวใจที่ทำงานเต็มประสิทธิภาพ."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 2000
 	new_stock.min_price = 1000
@@ -365,8 +365,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "INTS"
-	new_stock.s_name = "Intestine"
-	new_stock.description = "The one in the driver's seat. The homunculus."
+	new_stock.s_name = "ลำไส้"
+	new_stock.description = "คนที่นั่งอยู่บนเบาะคนขับ โฮมันคูลัส."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 400
 	new_stock.min_price = 200
@@ -379,8 +379,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PINT"
-	new_stock.s_name = "Putrid Intestine"
-	new_stock.description = "The worst smell you have ever experienced. What has this thing been eating?"
+	new_stock.s_name = "ลำไส้เน่า"
+	new_stock.description = "กลิ่นแย่ที่สุดที่แกเคยได้กลิ่น สิ่งนี้กินอะไรมาวะ?"
 	new_stock.asset_type = "part"
 	new_stock.max_price = 500
 	new_stock.min_price = 300
@@ -393,8 +393,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "APNX"
-	new_stock.s_name = "Appendix"
-	new_stock.description = "The primitive seat of the soul."
+	new_stock.s_name = "ไส้ติ่ง"
+	new_stock.description = "ที่นั่งดั้งเดิมของวิญญาณ."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 2000
 	new_stock.min_price = 1000
@@ -407,8 +407,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SPNE"
-	new_stock.s_name = "Spine"
-	new_stock.description = "Mark of a celestial prisoner."
+	new_stock.s_name = "กระดูกสันหลัง"
+	new_stock.description = "เครื่องหมายของนักโทษสวรรค์."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 1200
 	new_stock.min_price = 600
@@ -421,8 +421,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "RSPN"
-	new_stock.s_name = "Rotten Spine"
-	new_stock.description = "The internal scaffolding of a being selected for eternal punishment."
+	new_stock.s_name = "กระดูกสันหลังเน่า"
+	new_stock.description = "โครงสร้างภายในของสิ่งมีชีวิตที่ถูกเลือกลงโทษนิรันดร์."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 5200
 	new_stock.min_price = 600
@@ -435,8 +435,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "GUT "
-	new_stock.s_name = "Stomach"
-	new_stock.description = "The origin of Death."
+	new_stock.s_name = "กระเพาะ"
+	new_stock.description = "ต้นกำเนิดของความตาย."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 127
 	new_stock.min_price = 84
@@ -449,8 +449,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "NGUT"
-	new_stock.s_name = "Nuclear Stomach"
-	new_stock.description = "Capable of turning fissile material into biological energy. Doesn't protect the surroundings from radiation."
+	new_stock.s_name = "กระเพาะนิวเคลียร์"
+	new_stock.description = "สามารถเปลี่ยนวัสดุแตกตัวเป็นพลังงานชีวภาพ ไม่ป้องกันกัมมันตภาพรังสีรอบๆ."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 1270
 	new_stock.min_price = 840
@@ -463,8 +463,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PNCR"
-	new_stock.s_name = "Pancreas"
-	new_stock.description = "Manages the regulation of blood sugar levels. Completely superfluous due to advances in the food industry."
+	new_stock.s_name = "ตับอ่อน"
+	new_stock.description = "ควบคุมระดับน้ำตาลในเลือด ไม่มีประโยชน์เลยเพราะความก้าวหน้าของอุตสาหกรรมอาหาร."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 1
 	new_stock.min_price = 1
@@ -477,8 +477,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ADVP"
-	new_stock.s_name = "Advanced Pancreas"
-	new_stock.description = "This pancreas has been modified to secrete synthetic stimulants."
+	new_stock.s_name = "ตับอ่อนอัพเกรด"
+	new_stock.description = "ตับอ่อนตัวนี้ถูกดัดแปลงให้หลั่งสารกระตุ้นสังเคราะห์."
 	new_stock.asset_type = "part"
 	new_stock.max_price = 1000
 	new_stock.min_price = 500
@@ -491,8 +491,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "FLSH"
-	new_stock.s_name = "Fleshrat"
-	new_stock.description = "Hey! That's a fleshrat! Disgusting."
+	new_stock.s_name = "หนูเนื้อ"
+	new_stock.description = "เฮ้! นั่นหนูเนื้อ! น่าขยะแขง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_chance = 30
 	new_stock.fish_speed = 0.7
@@ -507,8 +507,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "CIV "
-	new_stock.s_name = "Civilian"
-	new_stock.description = "These are all over the place. Not worth much"
+	new_stock.s_name = "พลเรือน"
+	new_stock.description = "มีเต็มไปหมด ไม่ค่อยได้ราคา"
 	new_stock.asset_type = "fish"
 	new_stock.fish_chance = 5
 	new_stock.fish_speed = 0.7
@@ -523,8 +523,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BRNY"
-	new_stock.s_name = "Brainy"
-	new_stock.description = "Too intelligent for its own good, it despises living in fish society."
+	new_stock.s_name = "สมองไว"
+	new_stock.description = "ฉลาดเกินไปสำหรับตัวเอง เกลียดการอยู่ในสังคมปลา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_night = true
 	new_stock.fish_chance = 30
@@ -539,8 +539,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "POOL"
-	new_stock.s_name = "Poolsucker"
-	new_stock.description = "Lives on poolgunk."
+	new_stock.s_name = "ดูดสระ"
+	new_stock.description = "อาศัยอยู่กับเมือกสระ."
 	new_stock.asset_type = "fish"
 	new_stock.max_price = 56
 	new_stock.min_price = 3
@@ -553,8 +553,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BRST"
-	new_stock.s_name = "Brimstone"
-	new_stock.description = "Gets its beautiful color from a coating of sulfur."
+	new_stock.s_name = "กำมะถัน"
+	new_stock.description = "สีสวยมาจากเคลือบกำมะถัน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 30
@@ -569,8 +569,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DRMP"
-	new_stock.s_name = "Drimp"
-	new_stock.description = "A sought after beautiful decorative fish."
+	new_stock.s_name = "ดริมป์"
+	new_stock.description = "ปลาตกแต่งสวยๆที่เป็นที่ต้องการ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 50
@@ -585,8 +585,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "GLOM"
-	new_stock.s_name = "Gloomoid"
-	new_stock.description = "Consumes sin."
+	new_stock.s_name = "กลูมอยด์"
+	new_stock.description = "กินบาป."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 40
@@ -601,8 +601,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "SMLL"
-	new_stock.s_name = "Smallman"
-	new_stock.description = "Tricky to catch. Considered a delicacy but contains carcinogens."
+	new_stock.s_name = "คนเล็ก"
+	new_stock.description = "จับยาก ถือว่าเป็นอาหารชั้นเลิศแต่มีสารก่อมะเร็ง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.35
 	new_stock.fish_chance = 15
@@ -617,7 +617,7 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BIG "
-	new_stock.s_name = "Bigman"
+	new_stock.s_name = "คนใหญ่"
 	new_stock.description = ""
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.45
@@ -634,8 +634,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "FISH"
-	new_stock.s_name = "Fish"
-	new_stock.description = "The platonic ideal of a fish."
+	new_stock.s_name = "ปลา"
+	new_stock.description = "อุดมคติของปลา."
 	new_stock.asset_type = "fish"
 	new_stock.max_price = 52
 	new_stock.min_price = 2
@@ -648,8 +648,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "NGHT"
-	new_stock.s_name = "Nightfreak"
-	new_stock.description = "Emerges from the depths at night. The reflection you see in its eyes is not you."
+	new_stock.s_name = "ปีศาจกลางคืน"
+	new_stock.description = "โผล่ขึ้นมาจากก้นลึกตอนกลางคืน ภาพสะท้อนในดวงตามันไม่ใช่แก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_night = true
 	new_stock.fish_chance = 50
@@ -664,8 +664,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ZOOP"
-	new_stock.s_name = "Zooper"
-	new_stock.description = "Zoopers follow container ships and make strange noises."
+	new_stock.s_name = "ซูเปอร์"
+	new_stock.description = "ซูเปอร์ติดตามเรือสินค้าและส่งเสียงแปลกๆ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.8
 	new_stock.fish_chance = 80
@@ -680,8 +680,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "CARB"
-	new_stock.s_name = "Carabino"
-	new_stock.description = "A deranged combatant beyond help."
+	new_stock.s_name = "คาราบีโน"
+	new_stock.description = "นักรบที่วิกลจริตเกินช่วย."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.32
 	new_stock.fish_chance = 80
@@ -696,8 +696,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "MOON"
-	new_stock.s_name = "Moonfish"
-	new_stock.description = "A beautiful fish known for its use in chemical weapons."
+	new_stock.s_name = "ปลาจันทร์"
+	new_stock.description = "ปลาสวยที่ใช้ทำอาวุธเคมี."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 2
@@ -713,8 +713,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "EEL "
-	new_stock.s_name = "Eel"
-	new_stock.description = "Snakelike slippery fish that loves the rain."
+	new_stock.s_name = "ปลาไหล"
+	new_stock.description = "ปลาลื่นคล้ายงูที่ชอบฝน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 80
@@ -730,8 +730,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "FLND"
-	new_stock.s_name = "Flounder"
-	new_stock.description = "Deformed by sin. A cowardly fish."
+	new_stock.s_name = "ปลาลิ้น"
+	new_stock.description = "ผิดรูปจากบาป ปลาขี้ขลาด."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 60
@@ -747,8 +747,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "GFLD"
-	new_stock.s_name = "Gigaflounder"
-	new_stock.description = "Deformed by power. A wrathful fish."
+	new_stock.s_name = "ปลาลิ้นยักษ์"
+	new_stock.description = "ผิดรูปจากอำนาจ ปลาโกรธา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 10
@@ -765,8 +765,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BLRP"
-	new_stock.s_name = "Blurpo"
-	new_stock.description = "Blurpo is the smelliest saltwater fish on the market, an acquired taste."
+	new_stock.s_name = "เบลอโป"
+	new_stock.description = "เบลอโปเป็นปลาน้ำเค็มที่เหม็นที่สุดในตลาด รสชาติที่ต้องชิน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.7
 	new_stock.fish_chance = 50
@@ -781,8 +781,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "HDRA"
-	new_stock.s_name = "Hydra"
-	new_stock.description = "God among fish."
+	new_stock.s_name = "ไฮดรา"
+	new_stock.description = "พระเจ้าแห่งปลา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_night = true
@@ -799,8 +799,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PSYK"
-	new_stock.s_name = "Psychofish"
-	new_stock.description = "Saps the psychic energies of nearby humans."
+	new_stock.s_name = "ปลาจิต"
+	new_stock.description = "ดูดพลังงานจิตจากมนุษย์ใกล้เคียง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 35
@@ -815,8 +815,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BNCY"
-	new_stock.s_name = "Bouncy Castle"
-	new_stock.description = "This fish has come into contact with an experimental super-androgen."
+	new_stock.s_name = "บ้านลม"
+	new_stock.description = "ปลาตัวนี้สัมผัสกับฮอร์โมนสุดขีดทดลอง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 35
@@ -832,8 +832,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "UNI "
-	new_stock.s_name = "Unidor"
-	new_stock.description = "Rare tropical fish with many uses in the biotech industry."
+	new_stock.s_name = "ยูนิดอร์"
+	new_stock.description = "ปลาเขตร้อนหายากที่ใช้ประโยชน์ได้หลายอย่างในอุตสาหกรรมไบโอ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 5
@@ -848,8 +848,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "NOCT"
-	new_stock.s_name = "Nocter"
-	new_stock.description = "Tropical fish drawn to the energy of high frequency commercial transactions."
+	new_stock.s_name = "นอคเตอร์"
+	new_stock.description = "ปลาเขตร้อนที่ดูดพลังงานจากการซื้อขายความถี่สูง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_night = true
 	new_stock.fish_speed = 0.5
@@ -865,8 +865,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "HUMN"
-	new_stock.s_name = "Human"
-	new_stock.description = "Strange fish covered in shiny black plastic. Smells pretty bad."
+	new_stock.s_name = "มนุษย์"
+	new_stock.description = "ปลาประหลาดหุ้มพลาสติกดำเงาวับ เหม็นแย่มาก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 5
@@ -881,8 +881,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BUBL"
-	new_stock.s_name = "Bubblefish"
-	new_stock.description = "Not prepared properly has a high chance of causing a stomach ulcer. Very cute, please put it back."
+	new_stock.s_name = "ปลาฟอง"
+	new_stock.description = "ถ้าทำไม่ดีมีโอกาสทำให้กระเพาะเป็นแผล น่ารักมาก ปล่อยมันคืนเถอะ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 60
@@ -897,8 +897,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "FRAG"
-	new_stock.s_name = "Fragfish"
-	new_stock.description = "Explodes into high speed metal fragments when threatened. Can puncture a ship's hull easily."
+	new_stock.s_name = "ปลาระเบิด"
+	new_stock.description = "ระเบิดเป็นเศษโลหะความเร็วสูงเมื่อถูกคุกคาม ทะลุตัวเรือได้สบายๆ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_speed = 1.0
@@ -914,8 +914,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "FLIP"
-	new_stock.s_name = "Flippy"
-	new_stock.description = "Common tropical fish. Collective intelligence, launches suicide assaults on ship engines."
+	new_stock.s_name = "ฟลิปปี้"
+	new_stock.description = "ปลาเขตร้อนธรรมดา มีสติปัญญาร่วม โจมตีเครื่องยนต์เรือแบบพลีชีพ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 90
@@ -930,8 +930,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SKIP"
-	new_stock.s_name = "Skippy"
-	new_stock.description = "Rotates its disc-like body to skip across water."
+	new_stock.s_name = "สกิปปี้"
+	new_stock.description = "หมุนร่างจานของมันเพื่อกระโดดข้ามผิวน้ำ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 60
@@ -946,8 +946,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "GRAB"
-	new_stock.s_name = "Grabshark"
-	new_stock.description = "Pressurizes swimmers by dragging them to the bottom of the ocean."
+	new_stock.s_name = "ฉลามจับ"
+	new_stock.description = "กดดันนักว่ายน้ำโดยลากไปก้นมหาสมุทร."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_speed = 0.4
@@ -963,8 +963,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DLPH"
-	new_stock.s_name = "Dolphin"
-	new_stock.description = "Said to be the result of human ichthyosation."
+	new_stock.s_name = "โลมา"
+	new_stock.description = "ว่ากันว่าเป็นผลจากการแปลงมนุษย์เป็นปลา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 15
@@ -979,8 +979,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "OCTO"
-	new_stock.s_name = "Octosaur"
-	new_stock.description = "Loves drowning divers by releasing a cloud of acid."
+	new_stock.s_name = "อ็อกโตซอร์"
+	new_stock.description = "ชอบจมนักดำน้ำโดยปล่อยกรดเมฆ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_rain = true
 	new_stock.fish_speed = 0.8
@@ -996,8 +996,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "HEXA"
-	new_stock.s_name = "Hexasaur"
-	new_stock.description = "Holds absolute power over octosaurs."
+	new_stock.s_name = "เฮ็กซาซอร์"
+	new_stock.description = "มีอำนาจเหนืออ็อกโตซอร์ทั้งหมด."
 	new_stock.asset_type = "fish"
 	new_stock.fish_rain = true
 	new_stock.fish_speed = 0.3
@@ -1013,8 +1013,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SLRP"
-	new_stock.s_name = "Slurper"
-	new_stock.description = "Come on that's disgusting. Who would want that?"
+	new_stock.s_name = "ดูด"
+	new_stock.description = "เฮ้ย น่าขยะแขง ใครจะเอาวะ?"
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 100
@@ -1029,8 +1029,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PIPE"
-	new_stock.s_name = "Piper"
-	new_stock.description = "Makes the sound of water rushing through plumbing."
+	new_stock.s_name = "ไพเปอร์"
+	new_stock.description = "ส่งเสียงน้ำไหลผ่านท่อ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_speed = 1.0
@@ -1046,8 +1046,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BOG "
-	new_stock.s_name = "Bogdo"
-	new_stock.description = "Emerges from deep in the swamp and makes disgusting grunting sounds. Eats corpses."
+	new_stock.s_name = "บอกโด"
+	new_stock.description = "โผล่มาจากก้นลึกหนองบึงและส่งเสียงครางน่าขยะแขง กินซาก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 70
@@ -1062,8 +1062,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SBOG"
-	new_stock.s_name = "Super Bogdo"
-	new_stock.description = "A terrifying scream reverberates over the swamplands. It's Super Bogdo. Eats bogdos."
+	new_stock.s_name = "ซูเปอร์บอกโด"
+	new_stock.description = "เสียงร้องน่าสะพรึงกลัวดังขึ้นเหนือหนองบึง มันคือซูเปอร์บอกโด กินบอกโด."
 	new_stock.asset_type = "fish"
 	new_stock.fish_night = true
 	new_stock.fish_speed = 0.3
@@ -1079,8 +1079,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SWMP"
-	new_stock.s_name = "Swampsucker"
-	new_stock.description = "Unlike the benign poolsucker, this one only eats human flesh."
+	new_stock.s_name = "ดูดหนองบึง"
+	new_stock.description = "ต่างจากดูดสระที่ไม่มีพิษ ตัวนี้กินเฉพาะเนื้อมนุษย์."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 30
@@ -1095,8 +1095,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "SPKE"
-	new_stock.s_name = "Spiker"
-	new_stock.description = "The spikes are hard enough to go through protective steel plates. Popular as a booby trap."
+	new_stock.s_name = "หนาม"
+	new_stock.description = "หนามแข็งพอทะลุแผ่นเหล็กป้องกัน นิยมใช้ทำกับดัก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 50
@@ -1111,8 +1111,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "GEEL"
-	new_stock.s_name = "Gunk Eel"
-	new_stock.description = "Covered in a thick odorous hallucinogenic paste."
+	new_stock.s_name = "ปลาไหลเมือก"
+	new_stock.description = "เคลือบด้วยเมือกหอมหลอนประสาทหนาหนา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 80
@@ -1128,8 +1128,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "LUCK"
-	new_stock.s_name = "Lucksucker"
-	new_stock.description = "A pulsating, writhing sensation fills your head. Feeds on luck and shits out misfortune."
+	new_stock.s_name = "ดูดโชค"
+	new_stock.description = "ความรู้สึกเต้นเต้นดิ้นเต็มหัว กินโชคขี้โชคร้ายออกมา."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.3
 	new_stock.fish_chance = 3
@@ -1144,8 +1144,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "BNBO"
-	new_stock.s_name = "Bonbo"
-	new_stock.description = "Sewage network traveler. Smiles at you and winks."
+	new_stock.s_name = "บอนโบ"
+	new_stock.description = "นักท่องท่อระบายน้ำเสีย ยิ้มและขยิบตาให้."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 10
@@ -1160,8 +1160,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "WLTH"
-	new_stock.s_name = "Fish of Wealth"
-	new_stock.description = "Considered a symbol of good wealth. Not worth much though."
+	new_stock.s_name = "ปลาร่ำรวย"
+	new_stock.description = "ถือว่าเป็นสัญลักษณ์ความร่ำรวย แต่ไม่ค่อยมีราคาเท่าไหร่."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.7
 	new_stock.fish_chance = 80
@@ -1176,8 +1176,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "COIN"
-	new_stock.s_name = "Coiny"
-	new_stock.description = "Avoids predators by hiding among coins."
+	new_stock.s_name = "เหรียญ"
+	new_stock.description = "หลบนักล่าโดยซ่อนในกองเหรียญ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.7
 	new_stock.fish_chance = 95
@@ -1192,8 +1192,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "WOF "
-	new_stock.s_name = "Wheel of Fortune"
-	new_stock.description = "A sign of demonic luck."
+	new_stock.s_name = "วงล้อโชคชะตา"
+	new_stock.description = "สัญลักษณ์โชคดีปีศาจ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 0.5
@@ -1208,8 +1208,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "PAIN"
-	new_stock.s_name = "Wheel of Pain"
-	new_stock.description = "A sign of celestial punishment."
+	new_stock.s_name = "วงล้อความเจ็บปวด"
+	new_stock.description = "สัญลักษณ์การลงโทษสวรรค์."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_night = true
@@ -1227,7 +1227,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "ZIPP"
 	new_stock.s_name = "Zippy 3000 (Broken)"
-	new_stock.description = "So close."
+	new_stock.description = "ใกล้แล้ว."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 10.0
 	new_stock.fish_chance = 0.5
@@ -1245,7 +1245,7 @@ func _enter_tree():
 	new_stock = stock.new()
 	new_stock.ticker = "AGON"
 	new_stock.s_name = "Agon"
-	new_stock.description = "The sleeper."
+	new_stock.description = "ผู้หลับใหล."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 2.0
 	new_stock.fish_chance = 40
@@ -1260,8 +1260,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BRRN"
-	new_stock.s_name = "Bororion"
-	new_stock.description = "A primordial being."
+	new_stock.s_name = "บอโรไรออน"
+	new_stock.description = "สิ่งมีชีวิตดั้งเดิม."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 20
@@ -1276,8 +1276,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "CREP"
-	new_stock.s_name = "Creep"
-	new_stock.description = "It won't leave you alone."
+	new_stock.s_name = "ครีป"
+	new_stock.description = "มันจะไม่ทิ้งแกหรอก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 5
@@ -1292,8 +1292,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DLTA"
-	new_stock.s_name = "Deltaforce"
-	new_stock.description = "A celestial aggressor."
+	new_stock.s_name = "เดลต้าฟอร์ซ"
+	new_stock.description = "ผู้รุกรานสวรรค์."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.3
 	new_stock.fish_chance = 2.5
@@ -1308,8 +1308,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ETRN"
-	new_stock.s_name = "Eternity Slurper"
-	new_stock.description = "A primitive subterranean form of the slurper."
+	new_stock.s_name = "ดูดนิรันดร์"
+	new_stock.description = "รูปแบบดั้งเดิมของดูดใต้ดิน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 5
@@ -1324,8 +1324,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DOS "
-	new_stock.s_name = "DOSfish"
-	new_stock.description = "Ancient machine that radiates knowledge attained by a legendary fishing expert."
+	new_stock.s_name = "ปลาดอส"
+	new_stock.description = "เครื่องโบราณที่แผ่ความรู้จากผู้เชี่ยวชาญตกปลาตำนาน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.2
 	new_stock.fish_chance = 1
@@ -1340,8 +1340,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "MSTK"
-	new_stock.s_name = "Mistake"
-	new_stock.description = "Sometimes things just go wrong."
+	new_stock.s_name = "ความผิดพลาด"
+	new_stock.description = "บางทีก็มีอะไรผิดพลาด."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 30
@@ -1356,8 +1356,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SCCS"
-	new_stock.s_name = "Success"
-	new_stock.description = "Now that's what I'm talking about."
+	new_stock.s_name = "ความสำเร็จ"
+	new_stock.description = "นี่แหละกูพูดถึง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.2
 	new_stock.fish_chance = 2
@@ -1372,8 +1372,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SUN "
-	new_stock.s_name = "Sunfish"
-	new_stock.description = "Went extinct in the 20th century."
+	new_stock.s_name = "ปลาตะวัน"
+	new_stock.description = "สูญพันธุ์ไปตั้งแต่ศตวรรษที่ 20."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 2.0
 	new_stock.fish_chance = 2
@@ -1388,8 +1388,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "CUBE"
-	new_stock.s_name = "Cubert"
-	new_stock.description = "Some kind of speculative biology leaking from [REDACTED]'s head."
+	new_stock.s_name = "คิวเบิร์ต"
+	new_stock.description = "ชีววิทยาเชิงคาดเดาที่รั่วออกมาจากหัว[ตัดออก]."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 70
@@ -1404,8 +1404,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "GLRM"
-	new_stock.s_name = "Glurm"
-	new_stock.description = "Thrives in complete darkness."
+	new_stock.s_name = "กลัรม"
+	new_stock.description = "เจริญในความมืดสนิท."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 50
@@ -1420,8 +1420,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "DFSH"
-	new_stock.s_name = "Darkfish"
-	new_stock.description = "This fish is a malignant narcissist."
+	new_stock.s_name = "ปลามืด"
+	new_stock.description = "ปลาตัวนี้เป็นโรคหลงตัวเองร้ายแรง."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 50
@@ -1436,8 +1436,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DSLR"
-	new_stock.s_name = "Darkslurper"
-	new_stock.description = "Contains fissile material. Victim of overfishing."
+	new_stock.s_name = "ดูดมืด"
+	new_stock.description = "มีวัสดุแตกตัว เหยื่อการจับเกินขนาด."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.3
 	new_stock.fish_chance = 3
@@ -1452,8 +1452,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DSCK"
-	new_stock.s_name = "Darksucker"
-	new_stock.description = "Darkness makes suckers slow and dull."
+	new_stock.s_name = "ดูดมืดสนิท"
+	new_stock.description = "ความมืดทำให้ดูดช้าและทื่อ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 2.0
 	new_stock.fish_chance = 90
@@ -1468,8 +1468,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ICE "
-	new_stock.s_name = "Icefish"
-	new_stock.description = "A fish perfectly adapted to sub-zero temperatures."
+	new_stock.s_name = "ปลาน้ำแข็ง"
+	new_stock.description = "ปลาที่ปรับตัวได้ดีกับอุณหภูมิติดลบ."
 	new_stock.asset_type = "fish"
 	new_stock.max_price = 300
 	new_stock.min_price = 132
@@ -1482,8 +1482,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ICBE"
-	new_stock.s_name = "Ice Cubert"
-	new_stock.description = "Its body temperature is almost 0 kelvin."
+	new_stock.s_name = "คิวเบิร์ตน้ำแข็ง"
+	new_stock.description = "อุณหภูมิร่างกายเกือบ 0 เคลวิน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 1.0
 	new_stock.fish_chance = 50
@@ -1498,8 +1498,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "BLSM"
-	new_stock.s_name = "Blossom"
-	new_stock.description = "Fills your mind with happy thoughts."
+	new_stock.s_name = "บลอสซัม"
+	new_stock.description = "เติมความคิดมีความสุขให้หัวแก."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.6
 	new_stock.fish_chance = 60
@@ -1514,8 +1514,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "CHTH"
-	new_stock.s_name = "Chthonner"
-	new_stock.description = "A transnistrian cave dweller. Herbivore."
+	new_stock.s_name = "คทอนเนอร์"
+	new_stock.description = "สัตว์ถ้ำทรานส์นิสเตีย กินพืช."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.5
 	new_stock.fish_chance = 40
@@ -1530,8 +1530,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "HEAD"
-	new_stock.s_name = "Head"
-	new_stock.description = "Someone's head infected with an extraterrestrial parasite."
+	new_stock.s_name = "หัว"
+	new_stock.description = "หัวใครบางคนที่ติดเชื้อปรสิตต่างดาว."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 30
@@ -1546,8 +1546,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "POND"
-	new_stock.s_name = "Pondman"
-	new_stock.description = "Reminds you of a friend long gone."
+	new_stock.s_name = "คนสระ"
+	new_stock.description = "ทำให้นึกถึงเพื่อนที่จากไปนาน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 6
@@ -1562,8 +1562,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "HELI"
-	new_stock.s_name = "Helipod"
-	new_stock.description = "As it spends the days flying around eating small insects it's usually only caught at night."
+	new_stock.s_name = "เฮลิพอด"
+	new_stock.description = "บินกินแมลงตลอดวัน ปกติจับได้แค่ตอนกลางคืน."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.35
 	new_stock.fish_night = true
@@ -1579,8 +1579,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "ENGN"
-	new_stock.s_name = "Engine of Chaos"
-	new_stock.description = "Whirrs and gyrates with terrifying force as you try to make sense of your life."
+	new_stock.s_name = "เครื่องยนต์วุ่นวาย"
+	new_stock.description = "หมุนและหมุนวนด้วยพลังน่ากลัวขณะที่แกพยายามทำความเข้าใจชีวิต."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.fish_speed = 0.5
@@ -1596,8 +1596,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "DEAD"
-	new_stock.s_name = "Dead Fish"
-	new_stock.description = "Animated by regret."
+	new_stock.s_name = "ปลาตาย"
+	new_stock.description = "มีชีวิตจากความเสียใจ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_hell = true
 	new_stock.max_price = 104
@@ -1611,8 +1611,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "TRNC"
-	new_stock.s_name = "Trancer"
-	new_stock.description = "Mutated by malignant soundwaves and research chemicals."
+	new_stock.s_name = "ทรานเซอร์"
+	new_stock.description = "กลายพันธุ์จากคลื่นเสียงร้ายแรงและสารเคมีวิจัย."
 	new_stock.asset_type = "fish"
 	new_stock.max_price = 3000
 	new_stock.min_price = 2000
@@ -1627,8 +1627,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "FUZZ"
-	new_stock.s_name = "Fuzzoid"
-	new_stock.description = "Exists in boundaries, limits, edges. Primitive killer."
+	new_stock.s_name = "ฟัซซอยด์"
+	new_stock.description = "อยู่ในขอบเขต ขีดจำกัด ขอบ นักฆ่าดั้งเดิม."
 	new_stock.asset_type = "fish"
 	new_stock.max_price = 30000
 	new_stock.min_price = 20000
@@ -1643,8 +1643,8 @@ func _enter_tree():
 
 	new_stock = stock.new()
 	new_stock.ticker = "SOUL"
-	new_stock.s_name = "Soul"
-	new_stock.description = "You caught a soul. It feels sticky to touch."
+	new_stock.s_name = "วิญญาณ"
+	new_stock.description = "แกจับวิญญาณได้ มันรู้สึกเหนียวแปลกๆ."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.2
 	new_stock.fish_chance = 0.5
@@ -1659,8 +1659,8 @@ func _enter_tree():
 	
 	new_stock = stock.new()
 	new_stock.ticker = "BLLS"
-	new_stock.s_name = "Ballsfish"
-	new_stock.description = "By popular demand, as seen on television."
+	new_stock.s_name = "ปลาบอล"
+	new_stock.description = "ตามคำเรียกร้อง เหมือนในทีวี."
 	new_stock.asset_type = "fish"
 	new_stock.fish_speed = 0.4
 	new_stock.fish_chance = 0.5
