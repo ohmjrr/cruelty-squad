@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=24 format=2]
 
-[ext_resource path="res://Fonts/NotoSansThai-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Fonts/Sarabun-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Maps/textures/base/Stone2.png" type="Texture" id=2]
 [ext_resource path="res://Textures/Menu/background_1.png" type="Texture" id=4]
 
