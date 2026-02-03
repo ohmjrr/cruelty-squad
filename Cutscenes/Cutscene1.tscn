@@ -68,7 +68,7 @@
 [ext_resource path="res://Imported_Mesh/MG3_material.material" type="Material" id=66]
 
 [sub_resource type="DynamicFont" id=1]
-size = 32
+size = 20
 font_data = ExtResource( 2 )
 
 [sub_resource type="SpatialMaterial" id=2]

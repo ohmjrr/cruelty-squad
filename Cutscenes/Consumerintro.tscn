@@ -10,11 +10,11 @@
 [ext_resource path="res://Textures/Decals/blood3.png" type="Texture" id=8]
 
 [sub_resource type="DynamicFont" id=1]
-size = 64
+size = 32
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=2]
-size = 32
+size = 20
 font_data = ExtResource( 2 )
 
 [sub_resource type="PanoramaSky" id=3]

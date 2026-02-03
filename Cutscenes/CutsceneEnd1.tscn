@@ -25,7 +25,7 @@
 [ext_resource path="res://phone.tscn" type="PackedScene" id=24]
 
 [sub_resource type="DynamicFont" id=1]
-size = 64
+size = 32
 font_data = ExtResource( 2 )
 
 [sub_resource type="SpatialMaterial" id=2]
